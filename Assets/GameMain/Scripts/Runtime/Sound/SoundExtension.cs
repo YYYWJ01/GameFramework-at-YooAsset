@@ -7,7 +7,13 @@ namespace GameMain
 {
     public static class SoundExtension
     {
+        /// <summary>
+        /// 淡出音量持续时间
+        /// </summary>
         private const float FadeVolumeDuration = 1f;
+        /// <summary>
+        /// 音乐序列号
+        /// </summary>
         private static int? s_MusicSerialId = null;
 
         // public static int? PlayMusic(this SoundComponent soundComponent, int musicId, object userData = null)
@@ -32,6 +38,10 @@ namespace GameMain
         //     return s_MusicSerialId;
         // }
 
+        /// <summary>
+        /// 停止背景音乐
+        /// </summary>
+        /// <param name="soundComponent">声音组件</param>
         public static void StopMusic(this SoundComponent soundComponent)
         {
             if (!s_MusicSerialId.HasValue)
@@ -43,6 +53,14 @@ namespace GameMain
             s_MusicSerialId = null;
         }
 
+        /// <summary>
+        /// 播放声音
+        /// </summary>
+        /// <param name="soundComponent">声音组件</param>
+        /// <param name="assetName">资源名字</param>
+        /// <param name="bindingEntity">绑定实体</param>
+        /// <param name="userData">数据</param>
+        /// <returns></returns>
         public static int? PlaySound(this SoundComponent soundComponent, string assetName, Entity bindingEntity = null, object userData = null)
         {
             if (string.IsNullOrEmpty(assetName))
@@ -78,6 +96,12 @@ namespace GameMain
         //     return soundComponent.PlaySound(AssetUtility.GetUISoundAsset(drUISound.AssetName), "UISound", Constant.AssetPriority.UISoundAsset, playSoundParams, userData);
         // }
         
+        /// <summary>
+        /// 获取声音组是否静音
+        /// </summary>
+        /// <param name="soundComponent">声音组件</param>
+        /// <param name="soundGroupName">声音组Name</param>
+        /// <returns></returns>
         public static bool IsMuted(this SoundComponent soundComponent, string soundGroupName)
         {
             if (string.IsNullOrEmpty(soundGroupName))
@@ -96,6 +120,12 @@ namespace GameMain
             return soundGroup.Mute;
         }
 
+        /// <summary>
+        /// 设置声音组静音
+        /// </summary>
+        /// <param name="soundComponent">声音组件</param>
+        /// <param name="soundGroupName">声音组Name</param>
+        /// <param name="mute">是否静音</param>
         public static void Mute(this SoundComponent soundComponent, string soundGroupName, bool mute)
         {
             if (string.IsNullOrEmpty(soundGroupName))
@@ -117,6 +147,12 @@ namespace GameMain
             GameModule.Setting.Save();
         }
 
+        /// <summary>
+        /// 获取音量
+        /// </summary>
+        /// <param name="soundComponent">声音组件</param>
+        /// <param name="soundGroupName">声音组Name</param>
+        /// <returns></returns>
         public static float GetVolume(this SoundComponent soundComponent, string soundGroupName)
         {
             if (string.IsNullOrEmpty(soundGroupName))
@@ -135,6 +171,12 @@ namespace GameMain
             return soundGroup.Volume;
         }
 
+        /// <summary>
+        /// 设置音量
+        /// </summary>
+        /// <param name="soundComponent">声音组件</param>
+        /// <param name="soundGroupName">声音组Name</param>
+        /// <param name="volume">音量</param>
         public static void SetVolume(this SoundComponent soundComponent, string soundGroupName, float volume)
         {
             if (string.IsNullOrEmpty(soundGroupName))

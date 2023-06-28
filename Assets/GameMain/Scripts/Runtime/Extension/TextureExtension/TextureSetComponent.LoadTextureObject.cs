@@ -6,6 +6,9 @@ using UnityEngine;
 
 namespace UGFExtensions.Texture
 {
+    /// <summary>
+    /// 纹理设置组件
+    /// </summary>
     public partial class TextureSetComponent
     {
         [Serializable]

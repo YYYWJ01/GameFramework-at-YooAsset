@@ -1,0 +1,15 @@
+[
+  {
+    "BuffID": 1001,
+    "name": "眩晕",
+    "prefId": 1001,
+    "desc": "普攻",
+    "icon": "icon_buff_1001",
+    "TimeType": 0,
+    "ReplaceType": 0,
+    "State": {
+      "StateID": 1,
+      "StateParam": 0
+    }
+  }
+]

@@ -3,6 +3,9 @@ using UGFExtensions.Await;
 
 namespace UGFExtensions.SpriteCollection
 {
+    /// <summary>
+    /// 精灵收集组件
+    /// </summary>
     public partial class SpriteCollectionComponent
     {
         /// <summary>

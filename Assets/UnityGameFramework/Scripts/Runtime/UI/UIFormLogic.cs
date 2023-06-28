@@ -12,7 +12,7 @@ namespace UnityGameFramework.Runtime
     {
         private bool m_Available = false;
         private bool m_Visible = false;
-        private UIForm m_UIForm = null;
+        protected UIForm m_UIForm = null;
         private Transform m_CachedTransform = null;
         private int m_OriginalLayer = 0;
 

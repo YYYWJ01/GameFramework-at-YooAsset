@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 673904502
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 26a1327f9a46c9553b4277eeef3ca8c8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Art/Actor/E3D-Marugan/Material/Texture/E3D-Marugan_D.tga
+- Assets/Art/Actor/E3D-Marugan/Material/Texture/Wp_Ax_Demiluneaxe_01.png
+Dependencies: []

@@ -2,6 +2,9 @@
 using Cysharp.Threading.Tasks;
 using GameFramework.Fsm;
 using GameFramework.Procedure;
+using UnityEngine;
+using UnityGameFramework.Runtime;
+using YooAsset;
 
 namespace GameMain
 {
@@ -22,8 +25,11 @@ namespace GameMain
 
         private async UniTaskVoid StartGame()
         {
-            await UniTask.Delay(TimeSpan.FromSeconds(2f));
+            await UniTask.Delay(TimeSpan.FromSeconds(0));
             UILoadMgr.HideAll();
+            
+            // GameModule.Scene.LoadScene("Battle", Constant.AssetPriority.SceneAsset, this);    
+            GameModule.UI.OpenUIForm(UI.Home,UIConfig.DicUIProperty[UI.Home]);
         }
     }
 }

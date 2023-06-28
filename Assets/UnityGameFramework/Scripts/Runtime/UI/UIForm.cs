@@ -18,6 +18,7 @@ namespace UnityGameFramework.Runtime
         private int m_DepthInUIGroup;
         private bool m_PauseCoveredUIForm;
         private UIFormLogic m_UIFormLogic;
+        public const int DepthFactor = 10000;
 
         /// <summary>
         /// 获取界面序列编号。
@@ -112,6 +113,9 @@ namespace UnityGameFramework.Runtime
             m_UIGroup = uiGroup;
             m_DepthInUIGroup = 0;
             m_PauseCoveredUIForm = pauseCoveredUIForm;
+
+            Canvas canvas = transform.GetComponent<Canvas>();
+            canvas.sortingOrder = uiGroup.Depth * DepthFactor + m_SerialId;
 
             if (!isNewInstance)
             {

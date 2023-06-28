@@ -1,0 +1,928 @@
+fileFormatVersion: 2
+guid: f0f514ae67b4b4b44884f035225812b5
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Bip001
+  - first:
+      1: 100002
+    second: Bip001 Head
+  - first:
+      1: 100004
+    second: Bip001 HeadNub
+  - first:
+      1: 100006
+    second: Bip001 L Calf
+  - first:
+      1: 100008
+    second: Bip001 L Clavicle
+  - first:
+      1: 100010
+    second: Bip001 L Finger0
+  - first:
+      1: 100012
+    second: Bip001 L Finger01
+  - first:
+      1: 100014
+    second: Bip001 L Finger0Nub
+  - first:
+      1: 100016
+    second: Bip001 L Finger1
+  - first:
+      1: 100018
+    second: Bip001 L Finger11
+  - first:
+      1: 100020
+    second: Bip001 L Finger1Nub
+  - first:
+      1: 100022
+    second: Bip001 L Foot
+  - first:
+      1: 100024
+    second: Bip001 L Forearm
+  - first:
+      1: 100026
+    second: Bip001 L Hand
+  - first:
+      1: 100028
+    second: Bip001 L Thigh
+  - first:
+      1: 100030
+    second: Bip001 L Toe0
+  - first:
+      1: 100032
+    second: Bip001 L Toe0Nub
+  - first:
+      1: 100034
+    second: Bip001 L UpperArm
+  - first:
+      1: 100036
+    second: Bip001 Neck
+  - first:
+      1: 100038
+    second: Bip001 Pelvis
+  - first:
+      1: 100040
+    second: Bip001 R Calf
+  - first:
+      1: 100042
+    second: Bip001 R Clavicle
+  - first:
+      1: 100044
+    second: Bip001 R Finger0
+  - first:
+      1: 100046
+    second: Bip001 R Finger01
+  - first:
+      1: 100048
+    second: Bip001 R Finger0Nub
+  - first:
+      1: 100050
+    second: Bip001 R Finger1
+  - first:
+      1: 100052
+    second: Bip001 R Finger11
+  - first:
+      1: 100054
+    second: Bip001 R Finger1Nub
+  - first:
+      1: 100056
+    second: Bip001 R Foot
+  - first:
+      1: 100058
+    second: Bip001 R Forearm
+  - first:
+      1: 100060
+    second: Bip001 R Hand
+  - first:
+      1: 100062
+    second: Bip001 R Thigh
+  - first:
+      1: 100064
+    second: Bip001 R Toe0
+  - first:
+      1: 100066
+    second: Bip001 R Toe0Nub
+  - first:
+      1: 100068
+    second: Bip001 R UpperArm
+  - first:
+      1: 100070
+    second: Bip001 Spine
+  - first:
+      1: 100072
+    second: Bip001 Spine1
+  - first:
+      1: 100074
+    second: Bip001 Spine2
+  - first:
+      1: 100076
+    second: Bone001
+  - first:
+      1: 100078
+    second: Bone002
+  - first:
+      1: 100080
+    second: Bone003
+  - first:
+      1: 100082
+    second: Bone004
+  - first:
+      1: 100084
+    second: Bone005
+  - first:
+      1: 100086
+    second: Bone006
+  - first:
+      1: 100088
+    second: Bone006(mirrored)
+  - first:
+      1: 100090
+    second: Bone007
+  - first:
+      1: 100092
+    second: Bone007(mirrored)
+  - first:
+      1: 100094
+    second: Bone008
+  - first:
+      1: 100096
+    second: Bone008(mirrored)
+  - first:
+      1: 100098
+    second: Bone009
+  - first:
+      1: 100100
+    second: Bone009(mirrored)
+  - first:
+      1: 100102
+    second: Bone010
+  - first:
+      1: 100104
+    second: Bone010(mirrored)
+  - first:
+      1: 100106
+    second: Bone011
+  - first:
+      1: 100108
+    second: Bone011(mirrored)
+  - first:
+      1: 100110
+    second: Bone012
+  - first:
+      1: 100112
+    second: Bone012(mirrored)
+  - first:
+      1: 100114
+    second: Bone013
+  - first:
+      1: 100116
+    second: Bone013(mirrored)
+  - first:
+      1: 100118
+    second: Bone014
+  - first:
+      1: 100120
+    second: Bone014(mirrored)
+  - first:
+      1: 100122
+    second: Bone015
+  - first:
+      1: 100124
+    second: Bone016
+  - first:
+      1: 100126
+    second: Bone017
+  - first:
+      1: 100128
+    second: Bone018
+  - first:
+      1: 100130
+    second: Bone019
+  - first:
+      1: 100132
+    second: Bone020
+  - first:
+      1: 100134
+    second: Bone020(mirrored)
+  - first:
+      1: 100136
+    second: Bone021
+  - first:
+      1: 100138
+    second: Bone021(mirrored)
+  - first:
+      1: 100140
+    second: Bone022
+  - first:
+      1: 100142
+    second: Bone022(mirrored)
+  - first:
+      1: 100144
+    second: Bone023
+  - first:
+      1: 100146
+    second: Bone023(mirrored)
+  - first:
+      1: 100148
+    second: Bone024
+  - first:
+      1: 100150
+    second: Bone024(mirrored)
+  - first:
+      1: 100152
+    second: Bone025
+  - first:
+      1: 100154
+    second: Bone025(mirrored)
+  - first:
+      1: 100156
+    second: Bone026
+  - first:
+      1: 100158
+    second: Bone026(mirrored)
+  - first:
+      1: 100160
+    second: Bone027
+  - first:
+      1: 100162
+    second: Bone027(mirrored)
+  - first:
+      1: 100164
+    second: Bone028
+  - first:
+      1: 100166
+    second: Bone028(mirrored)
+  - first:
+      1: 100168
+    second: Bone029
+  - first:
+      1: 100170
+    second: Bone029(mirrored)
+  - first:
+      1: 100172
+    second: Bone031
+  - first:
+      1: 100174
+    second: Bone031(mirrored)
+  - first:
+      1: 100176
+    second: Bone033
+  - first:
+      1: 100178
+    second: Bone033(mirrored)
+  - first:
+      1: 100180
+    second: Bone035
+  - first:
+      1: 100182
+    second: Bone035(mirrored)
+  - first:
+      1: 100184
+    second: Bone036
+  - first:
+      1: 100186
+    second: Bone036(mirrored)
+  - first:
+      1: 100188
+    second: Bone037
+  - first:
+      1: 100190
+    second: Bone037(mirrored)
+  - first:
+      1: 100192
+    second: Bone038
+  - first:
+      1: 100194
+    second: Bone038(mirrored)
+  - first:
+      1: 100196
+    second: Bone039
+  - first:
+      1: 100198
+    second: Bone039(mirrored)
+  - first:
+      1: 100200
+    second: Bone040
+  - first:
+      1: 100202
+    second: Bone040(mirrored)
+  - first:
+      1: 100204
+    second: Bone041
+  - first:
+      1: 100206
+    second: Bone041(mirrored)
+  - first:
+      1: 100208
+    second: Bone042
+  - first:
+      1: 100210
+    second: Bone042(mirrored)
+  - first:
+      1: 100212
+    second: Bone043
+  - first:
+      1: 100214
+    second: Bone043(mirrored)
+  - first:
+      1: 100216
+    second: Bone044
+  - first:
+      1: 100218
+    second: Bone044(mirrored)
+  - first:
+      1: 100220
+    second: Bone045
+  - first:
+      1: 100222
+    second: Bone045(mirrored)
+  - first:
+      1: 100224
+    second: Bone046
+  - first:
+      1: 100226
+    second: Bone046(mirrored)
+  - first:
+      1: 100228
+    second: Bone047
+  - first:
+      1: 100230
+    second: Bone047(mirrored)
+  - first:
+      1: 100232
+    second: Bone048
+  - first:
+      1: 100234
+    second: Bone048(mirrored)
+  - first:
+      1: 100236
+    second: Bone049
+  - first:
+      1: 100238
+    second: Bone049(mirrored)
+  - first:
+      1: 100240
+    second: //RootNode
+  - first:
+      1: 100242
+    second: Rimoo_Body
+  - first:
+      1: 100244
+    second: Rimoo_Body01
+  - first:
+      1: 100246
+    second: Rimoo_Hair
+  - first:
+      1: 100248
+    second: Rimoo_Pendant
+  - first:
+      4: 400000
+    second: Bip001
+  - first:
+      4: 400002
+    second: Bip001 Head
+  - first:
+      4: 400004
+    second: Bip001 HeadNub
+  - first:
+      4: 400006
+    second: Bip001 L Calf
+  - first:
+      4: 400008
+    second: Bip001 L Clavicle
+  - first:
+      4: 400010
+    second: Bip001 L Finger0
+  - first:
+      4: 400012
+    second: Bip001 L Finger01
+  - first:
+      4: 400014
+    second: Bip001 L Finger0Nub
+  - first:
+      4: 400016
+    second: Bip001 L Finger1
+  - first:
+      4: 400018
+    second: Bip001 L Finger11
+  - first:
+      4: 400020
+    second: Bip001 L Finger1Nub
+  - first:
+      4: 400022
+    second: Bip001 L Foot
+  - first:
+      4: 400024
+    second: Bip001 L Forearm
+  - first:
+      4: 400026
+    second: Bip001 L Hand
+  - first:
+      4: 400028
+    second: Bip001 L Thigh
+  - first:
+      4: 400030
+    second: Bip001 L Toe0
+  - first:
+      4: 400032
+    second: Bip001 L Toe0Nub
+  - first:
+      4: 400034
+    second: Bip001 L UpperArm
+  - first:
+      4: 400036
+    second: Bip001 Neck
+  - first:
+      4: 400038
+    second: Bip001 Pelvis
+  - first:
+      4: 400040
+    second: Bip001 R Calf
+  - first:
+      4: 400042
+    second: Bip001 R Clavicle
+  - first:
+      4: 400044
+    second: Bip001 R Finger0
+  - first:
+      4: 400046
+    second: Bip001 R Finger01
+  - first:
+      4: 400048
+    second: Bip001 R Finger0Nub
+  - first:
+      4: 400050
+    second: Bip001 R Finger1
+  - first:
+      4: 400052
+    second: Bip001 R Finger11
+  - first:
+      4: 400054
+    second: Bip001 R Finger1Nub
+  - first:
+      4: 400056
+    second: Bip001 R Foot
+  - first:
+      4: 400058
+    second: Bip001 R Forearm
+  - first:
+      4: 400060
+    second: Bip001 R Hand
+  - first:
+      4: 400062
+    second: Bip001 R Thigh
+  - first:
+      4: 400064
+    second: Bip001 R Toe0
+  - first:
+      4: 400066
+    second: Bip001 R Toe0Nub
+  - first:
+      4: 400068
+    second: Bip001 R UpperArm
+  - first:
+      4: 400070
+    second: Bip001 Spine
+  - first:
+      4: 400072
+    second: Bip001 Spine1
+  - first:
+      4: 400074
+    second: Bip001 Spine2
+  - first:
+      4: 400076
+    second: Bone001
+  - first:
+      4: 400078
+    second: Bone002
+  - first:
+      4: 400080
+    second: Bone003
+  - first:
+      4: 400082
+    second: Bone004
+  - first:
+      4: 400084
+    second: Bone005
+  - first:
+      4: 400086
+    second: Bone006
+  - first:
+      4: 400088
+    second: Bone006(mirrored)
+  - first:
+      4: 400090
+    second: Bone007
+  - first:
+      4: 400092
+    second: Bone007(mirrored)
+  - first:
+      4: 400094
+    second: Bone008
+  - first:
+      4: 400096
+    second: Bone008(mirrored)
+  - first:
+      4: 400098
+    second: Bone009
+  - first:
+      4: 400100
+    second: Bone009(mirrored)
+  - first:
+      4: 400102
+    second: Bone010
+  - first:
+      4: 400104
+    second: Bone010(mirrored)
+  - first:
+      4: 400106
+    second: Bone011
+  - first:
+      4: 400108
+    second: Bone011(mirrored)
+  - first:
+      4: 400110
+    second: Bone012
+  - first:
+      4: 400112
+    second: Bone012(mirrored)
+  - first:
+      4: 400114
+    second: Bone013
+  - first:
+      4: 400116
+    second: Bone013(mirrored)
+  - first:
+      4: 400118
+    second: Bone014
+  - first:
+      4: 400120
+    second: Bone014(mirrored)
+  - first:
+      4: 400122
+    second: Bone015
+  - first:
+      4: 400124
+    second: Bone016
+  - first:
+      4: 400126
+    second: Bone017
+  - first:
+      4: 400128
+    second: Bone018
+  - first:
+      4: 400130
+    second: Bone019
+  - first:
+      4: 400132
+    second: Bone020
+  - first:
+      4: 400134
+    second: Bone020(mirrored)
+  - first:
+      4: 400136
+    second: Bone021
+  - first:
+      4: 400138
+    second: Bone021(mirrored)
+  - first:
+      4: 400140
+    second: Bone022
+  - first:
+      4: 400142
+    second: Bone022(mirrored)
+  - first:
+      4: 400144
+    second: Bone023
+  - first:
+      4: 400146
+    second: Bone023(mirrored)
+  - first:
+      4: 400148
+    second: Bone024
+  - first:
+      4: 400150
+    second: Bone024(mirrored)
+  - first:
+      4: 400152
+    second: Bone025
+  - first:
+      4: 400154
+    second: Bone025(mirrored)
+  - first:
+      4: 400156
+    second: Bone026
+  - first:
+      4: 400158
+    second: Bone026(mirrored)
+  - first:
+      4: 400160
+    second: Bone027
+  - first:
+      4: 400162
+    second: Bone027(mirrored)
+  - first:
+      4: 400164
+    second: Bone028
+  - first:
+      4: 400166
+    second: Bone028(mirrored)
+  - first:
+      4: 400168
+    second: Bone029
+  - first:
+      4: 400170
+    second: Bone029(mirrored)
+  - first:
+      4: 400172
+    second: Bone031
+  - first:
+      4: 400174
+    second: Bone031(mirrored)
+  - first:
+      4: 400176
+    second: Bone033
+  - first:
+      4: 400178
+    second: Bone033(mirrored)
+  - first:
+      4: 400180
+    second: Bone035
+  - first:
+      4: 400182
+    second: Bone035(mirrored)
+  - first:
+      4: 400184
+    second: Bone036
+  - first:
+      4: 400186
+    second: Bone036(mirrored)
+  - first:
+      4: 400188
+    second: Bone037
+  - first:
+      4: 400190
+    second: Bone037(mirrored)
+  - first:
+      4: 400192
+    second: Bone038
+  - first:
+      4: 400194
+    second: Bone038(mirrored)
+  - first:
+      4: 400196
+    second: Bone039
+  - first:
+      4: 400198
+    second: Bone039(mirrored)
+  - first:
+      4: 400200
+    second: Bone040
+  - first:
+      4: 400202
+    second: Bone040(mirrored)
+  - first:
+      4: 400204
+    second: Bone041
+  - first:
+      4: 400206
+    second: Bone041(mirrored)
+  - first:
+      4: 400208
+    second: Bone042
+  - first:
+      4: 400210
+    second: Bone042(mirrored)
+  - first:
+      4: 400212
+    second: Bone043
+  - first:
+      4: 400214
+    second: Bone043(mirrored)
+  - first:
+      4: 400216
+    second: Bone044
+  - first:
+      4: 400218
+    second: Bone044(mirrored)
+  - first:
+      4: 400220
+    second: Bone045
+  - first:
+      4: 400222
+    second: Bone045(mirrored)
+  - first:
+      4: 400224
+    second: Bone046
+  - first:
+      4: 400226
+    second: Bone046(mirrored)
+  - first:
+      4: 400228
+    second: Bone047
+  - first:
+      4: 400230
+    second: Bone047(mirrored)
+  - first:
+      4: 400232
+    second: Bone048
+  - first:
+      4: 400234
+    second: Bone048(mirrored)
+  - first:
+      4: 400236
+    second: Bone049
+  - first:
+      4: 400238
+    second: Bone049(mirrored)
+  - first:
+      4: 400240
+    second: //RootNode
+  - first:
+      4: 400242
+    second: Rimoo_Body
+  - first:
+      4: 400244
+    second: Rimoo_Body01
+  - first:
+      4: 400246
+    second: Rimoo_Hair
+  - first:
+      4: 400248
+    second: Rimoo_Pendant
+  - first:
+      21: 2100000
+    second: Material #75
+  - first:
+      21: 2100002
+    second: Material #50
+  - first:
+      43: 4300000
+    second: Rimoo_Hair
+  - first:
+      43: 4300002
+    second: Rimoo_Body
+  - first:
+      43: 4300004
+    second: Rimoo_Body01
+  - first:
+      43: 4300006
+    second: Rimoo_Pendant
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Rimoo_Body
+  - first:
+      137: 13700002
+    second: Rimoo_Body01
+  - first:
+      137: 13700004
+    second: Rimoo_Hair
+  - first:
+      137: 13700006
+    second: Rimoo_Pendant
+  externalObjects: {}
+  materials:
+    materialImportMode: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips:
+  - 0d7cee27741edd2478c2764e138b9dc3
+  - 3aeb0858c964ee44980364385b7d6f33
+  - a915410f866ec3347964ad4ad9a29b92
+  - a0a3803a1823a794ba3cefb7fd831651
+  - 9f6b9e0fcf092844699d0116d5ea3a5b
+  - 9822478d3cf4f714f8beec726e8ec4bf
+  - 2d3997b92a95da04586caf5ed23ffdd0
+  - ed01303b737c8d44db4f44d9ea71b48d
+  - 3a0ee190cbc95be4a9145457b77a8fbf
+  - b4e119d60ad8070499d3694485046057
+  - e0f9fec54dc7c6a4494d73ea4d8211d8
+  - f9085ada8548a4c4289b5fd42d0d21a5
+  - dbc93e973d33f804bb1ebe7f08e67d2c
+  - 322a3470cc82391418d479ec45e219ea
+  - cdd6da803aacc8845b57999a06ff5b8a
+  - dbd08ffb9a6f10e47aeb9b84e0671e5a
+  - 7995a37dce1561f499675d23794ee531
+  - 02ed51dfc7e498f49bdb3a5de1c188a9
+  - 2707612e615859c468ae5aa53694a4cc
+  - ef45a94ce434f524791d1a32e4ae1da8
+  - 71f2046009746ae49b96c4950085be22
+  - acefb33bbfa89ee4d832dee50369ce48
+  - a299869c9c8506c41840ecc0f0818899
+  - 249cc06d87ab94f43947a4fd2643e689
+  - 7dff98d7ebf5c404fbc1bf30a7f5d4ba
+  - 7c3709cd9f832b34bbe8adbe79c21134
+  - 1cc36bf05a7c3014297093d9232b3ec7
+  - 60dddf074ad68ea42b2f93af36cb6025
+  - cdef10b9c1ff793499ce636b60e0e3b1
+  - 1f685348b34774c45b39d7bf12e49cdf
+  - d4f767e1e48c02443b22ebea7db8a3bb
+  - 10ee539cae6f6404d88ff20e2ff96074
+  - 9db6086114d6287438352a0aa5c92757
+  - 3579bdfc3356b7e44a0e2ecd4c9bae62
+  - dabe1281add07e8408275071e8856109
+  - 0decb415c43015d40b2b8f7f869f6711
+  - a63477986a37b7944aefc4e6bbf27933
+  - e49d120a7d7de0444abe167506a7efb9
+  - ddf8ee26c63bf0a4c81a2153bbdfd3e2
+  - 02f93e343c05636438d77d4ab54f918b
+  - 1915c2994eaea364cb69869c3f9a2ffd
+  - 77c1fe2474ed7c8409ba7e130680ea94
+  - 1a848b7fa63e1464690eed6ef375931c
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

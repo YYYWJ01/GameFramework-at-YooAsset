@@ -1,0 +1,676 @@
+fileFormatVersion: 2
+guid: 6cb8515fa7d87384ba142920f17cddae
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Bip01
+  - first:
+      1: 100002
+    second: Bip01 Footsteps
+  - first:
+      1: 100004
+    second: Bip01 Head
+  - first:
+      1: 100006
+    second: Bip01 HeadNub
+  - first:
+      1: 100008
+    second: Bip01 L Calf
+  - first:
+      1: 100010
+    second: Bip01 L Clavicle
+  - first:
+      1: 100012
+    second: Bip01 L Finger0
+  - first:
+      1: 100014
+    second: Bip01 L Finger01
+  - first:
+      1: 100016
+    second: Bip01 L Finger0Nub
+  - first:
+      1: 100018
+    second: Bip01 L Finger1
+  - first:
+      1: 100020
+    second: Bip01 L Finger11
+  - first:
+      1: 100022
+    second: Bip01 L Finger1Nub
+  - first:
+      1: 100024
+    second: Bip01 L Foot
+  - first:
+      1: 100026
+    second: Bip01 L Forearm
+  - first:
+      1: 100028
+    second: Bip01 L ForeTwist
+  - first:
+      1: 100030
+    second: Bip01 L Hand
+  - first:
+      1: 100032
+    second: Bip01 L Thigh
+  - first:
+      1: 100034
+    second: Bip01 L Toe0
+  - first:
+      1: 100036
+    second: Bip01 L Toe0Nub
+  - first:
+      1: 100038
+    second: Bip01 L UpperArm
+  - first:
+      1: 100040
+    second: Bip01 Neck
+  - first:
+      1: 100042
+    second: Bip01 Pelvis
+  - first:
+      1: 100044
+    second: Bip01 R Calf
+  - first:
+      1: 100046
+    second: Bip01 R Clavicle
+  - first:
+      1: 100048
+    second: Bip01 R Finger0
+  - first:
+      1: 100050
+    second: Bip01 R Finger01
+  - first:
+      1: 100052
+    second: Bip01 R Finger0Nub
+  - first:
+      1: 100054
+    second: Bip01 R Finger1
+  - first:
+      1: 100056
+    second: Bip01 R Finger11
+  - first:
+      1: 100058
+    second: Bip01 R Finger1Nub
+  - first:
+      1: 100060
+    second: Bip01 R Foot
+  - first:
+      1: 100062
+    second: Bip01 R Forearm
+  - first:
+      1: 100064
+    second: Bip01 R ForeTwist
+  - first:
+      1: 100066
+    second: Bip01 R Hand
+  - first:
+      1: 100068
+    second: Bip01 R Thigh
+  - first:
+      1: 100070
+    second: Bip01 R Toe0
+  - first:
+      1: 100072
+    second: Bip01 R Toe0Nub
+  - first:
+      1: 100074
+    second: Bip01 R UpperArm
+  - first:
+      1: 100076
+    second: Bip01 Spine
+  - first:
+      1: 100078
+    second: Bip01 Spine1
+  - first:
+      1: 100080
+    second: Bone001
+  - first:
+      1: 100082
+    second: Bone002
+  - first:
+      1: 100084
+    second: Bone003
+  - first:
+      1: 100086
+    second: Bone004
+  - first:
+      1: 100088
+    second: Bone006
+  - first:
+      1: 100090
+    second: Bone007
+  - first:
+      1: 100092
+    second: Bone007(mirrored)
+  - first:
+      1: 100094
+    second: Bone008
+  - first:
+      1: 100096
+    second: Bone008(mirrored)
+  - first:
+      1: 100098
+    second: Bone009
+  - first:
+      1: 100100
+    second: Bone009(mirrored)
+  - first:
+      1: 100102
+    second: Bone010
+  - first:
+      1: 100104
+    second: Bone010(mirrored)
+  - first:
+      1: 100106
+    second: Dummy-WP-L
+  - first:
+      1: 100108
+    second: Dummy-WP-R
+  - first:
+      1: 100110
+    second: //RootNode
+  - first:
+      1: 100112
+    second: E3D_ElfA_Belt
+  - first:
+      1: 100114
+    second: E3D_ElfA_Body_01
+  - first:
+      1: 100116
+    second: E3D_ElfA_Boots
+  - first:
+      1: 100118
+    second: E3D_ElfA_Clothes
+  - first:
+      1: 100120
+    second: E3D_ElfA_Ear
+  - first:
+      1: 100122
+    second: E3D_ElfA_Eye
+  - first:
+      1: 100124
+    second: E3D_ElfA_Eyelash
+  - first:
+      1: 100126
+    second: E3D_ElfA_Face
+  - first:
+      1: 100128
+    second: E3D_ElfA_Glove
+  - first:
+      1: 100130
+    second: E3D_ElfA_Hair
+  - first:
+      1: 100132
+    second: E3D_ElfA_Pants
+  - first:
+      1: 100134
+    second: E3D_ElfA_Shoulder
+  - first:
+      1: 100136
+    second: E3D_ElfA_WP
+  - first:
+      4: 400000
+    second: Bip01
+  - first:
+      4: 400002
+    second: Bip01 Footsteps
+  - first:
+      4: 400004
+    second: Bip01 Head
+  - first:
+      4: 400006
+    second: Bip01 HeadNub
+  - first:
+      4: 400008
+    second: Bip01 L Calf
+  - first:
+      4: 400010
+    second: Bip01 L Clavicle
+  - first:
+      4: 400012
+    second: Bip01 L Finger0
+  - first:
+      4: 400014
+    second: Bip01 L Finger01
+  - first:
+      4: 400016
+    second: Bip01 L Finger0Nub
+  - first:
+      4: 400018
+    second: Bip01 L Finger1
+  - first:
+      4: 400020
+    second: Bip01 L Finger11
+  - first:
+      4: 400022
+    second: Bip01 L Finger1Nub
+  - first:
+      4: 400024
+    second: Bip01 L Foot
+  - first:
+      4: 400026
+    second: Bip01 L Forearm
+  - first:
+      4: 400028
+    second: Bip01 L ForeTwist
+  - first:
+      4: 400030
+    second: Bip01 L Hand
+  - first:
+      4: 400032
+    second: Bip01 L Thigh
+  - first:
+      4: 400034
+    second: Bip01 L Toe0
+  - first:
+      4: 400036
+    second: Bip01 L Toe0Nub
+  - first:
+      4: 400038
+    second: Bip01 L UpperArm
+  - first:
+      4: 400040
+    second: Bip01 Neck
+  - first:
+      4: 400042
+    second: Bip01 Pelvis
+  - first:
+      4: 400044
+    second: Bip01 R Calf
+  - first:
+      4: 400046
+    second: Bip01 R Clavicle
+  - first:
+      4: 400048
+    second: Bip01 R Finger0
+  - first:
+      4: 400050
+    second: Bip01 R Finger01
+  - first:
+      4: 400052
+    second: Bip01 R Finger0Nub
+  - first:
+      4: 400054
+    second: Bip01 R Finger1
+  - first:
+      4: 400056
+    second: Bip01 R Finger11
+  - first:
+      4: 400058
+    second: Bip01 R Finger1Nub
+  - first:
+      4: 400060
+    second: Bip01 R Foot
+  - first:
+      4: 400062
+    second: Bip01 R Forearm
+  - first:
+      4: 400064
+    second: Bip01 R ForeTwist
+  - first:
+      4: 400066
+    second: Bip01 R Hand
+  - first:
+      4: 400068
+    second: Bip01 R Thigh
+  - first:
+      4: 400070
+    second: Bip01 R Toe0
+  - first:
+      4: 400072
+    second: Bip01 R Toe0Nub
+  - first:
+      4: 400074
+    second: Bip01 R UpperArm
+  - first:
+      4: 400076
+    second: Bip01 Spine
+  - first:
+      4: 400078
+    second: Bip01 Spine1
+  - first:
+      4: 400080
+    second: Bone001
+  - first:
+      4: 400082
+    second: Bone002
+  - first:
+      4: 400084
+    second: Bone003
+  - first:
+      4: 400086
+    second: Bone004
+  - first:
+      4: 400088
+    second: Bone006
+  - first:
+      4: 400090
+    second: Bone007
+  - first:
+      4: 400092
+    second: Bone007(mirrored)
+  - first:
+      4: 400094
+    second: Bone008
+  - first:
+      4: 400096
+    second: Bone008(mirrored)
+  - first:
+      4: 400098
+    second: Bone009
+  - first:
+      4: 400100
+    second: Bone009(mirrored)
+  - first:
+      4: 400102
+    second: Bone010
+  - first:
+      4: 400104
+    second: Bone010(mirrored)
+  - first:
+      4: 400106
+    second: Dummy-WP-L
+  - first:
+      4: 400108
+    second: Dummy-WP-R
+  - first:
+      4: 400110
+    second: //RootNode
+  - first:
+      4: 400112
+    second: E3D_ElfA_Belt
+  - first:
+      4: 400114
+    second: E3D_ElfA_Body_01
+  - first:
+      4: 400116
+    second: E3D_ElfA_Boots
+  - first:
+      4: 400118
+    second: E3D_ElfA_Clothes
+  - first:
+      4: 400120
+    second: E3D_ElfA_Ear
+  - first:
+      4: 400122
+    second: E3D_ElfA_Eye
+  - first:
+      4: 400124
+    second: E3D_ElfA_Eyelash
+  - first:
+      4: 400126
+    second: E3D_ElfA_Face
+  - first:
+      4: 400128
+    second: E3D_ElfA_Glove
+  - first:
+      4: 400130
+    second: E3D_ElfA_Hair
+  - first:
+      4: 400132
+    second: E3D_ElfA_Pants
+  - first:
+      4: 400134
+    second: E3D_ElfA_Shoulder
+  - first:
+      4: 400136
+    second: E3D_ElfA_WP
+  - first:
+      21: 2100000
+    second: Material #2
+  - first:
+      21: 2100002
+    second: Material #4
+  - first:
+      21: 2100004
+    second: Material #10
+  - first:
+      21: 2100006
+    second: Material #12
+  - first:
+      21: 2100008
+    second: Material #13
+  - first:
+      21: 2100010
+    second: Material #3
+  - first:
+      21: 2100012
+    second: Material #5
+  - first:
+      21: 2100014
+    second: Material #7
+  - first:
+      21: 2100016
+    second: Material #9
+  - first:
+      21: 2100018
+    second: Material #8
+  - first:
+      21: 2100020
+    second: Material #11
+  - first:
+      21: 2100022
+    second: Material #14
+  - first:
+      43: 4300000
+    second: E3D_ElfA_Belt
+  - first:
+      43: 4300002
+    second: E3D_ElfA_Boots
+  - first:
+      43: 4300004
+    second: E3D_ElfA_Glove
+  - first:
+      43: 4300006
+    second: E3D_ElfA_Pants
+  - first:
+      43: 4300008
+    second: E3D_ElfA_Shoulder
+  - first:
+      43: 4300010
+    second: E3D_ElfA_Body_01
+  - first:
+      43: 4300012
+    second: E3D_ElfA_Clothes
+  - first:
+      43: 4300014
+    second: E3D_ElfA_Ear
+  - first:
+      43: 4300016
+    second: E3D_ElfA_Face
+  - first:
+      43: 4300018
+    second: E3D_ElfA_Eyelash
+  - first:
+      43: 4300020
+    second: E3D_ElfA_Eye
+  - first:
+      43: 4300022
+    second: E3D_ElfA_Hair
+  - first:
+      43: 4300024
+    second: E3D_ElfA_WP
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: E3D_ElfA_Belt
+  - first:
+      137: 13700002
+    second: E3D_ElfA_Body_01
+  - first:
+      137: 13700004
+    second: E3D_ElfA_Boots
+  - first:
+      137: 13700006
+    second: E3D_ElfA_Clothes
+  - first:
+      137: 13700008
+    second: E3D_ElfA_Ear
+  - first:
+      137: 13700010
+    second: E3D_ElfA_Eye
+  - first:
+      137: 13700012
+    second: E3D_ElfA_Eyelash
+  - first:
+      137: 13700014
+    second: E3D_ElfA_Face
+  - first:
+      137: 13700016
+    second: E3D_ElfA_Glove
+  - first:
+      137: 13700018
+    second: E3D_ElfA_Hair
+  - first:
+      137: 13700020
+    second: E3D_ElfA_Pants
+  - first:
+      137: 13700022
+    second: E3D_ElfA_Shoulder
+  - first:
+      137: 13700024
+    second: E3D_ElfA_WP
+  externalObjects: {}
+  materials:
+    materialImportMode: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips:
+  - 189e81346e8662b41a99abe8b3b47f9e
+  - 1348df46097e11e43a20e1c6a2bb570e
+  - 47df853d5cf5d014b8dbc5230ccdca88
+  - 15af56712dc12a0468b7cfb4d1aff755
+  - 1be86611487ef6748b8db7b1534a4123
+  - f5da1de713923a44faa213d21b4d54b8
+  - b9ccaf598bcd04c4f995558a5bfef6cf
+  - d934eacb758dfcc41b41c50fc1e9f427
+  - 6c2ea37dc19f83e49bc122c4d6959ccf
+  - 3743ff89bd6033a48a7aa33d26808136
+  - bffe4d743e8e00442b656c67c3ab790d
+  - e8c225ba0588bfe4e9bc5d23644ae55c
+  - 5b19a92cb1cb199479fb180c3685e9f6
+  - dca078b47d8490e4b9fd4d9c04a39a3c
+  - a28d33e697c82974c87b675ebae81ec2
+  - 25396e331e21b7d45b904d986ac8e453
+  - 68a65fdb53fa72340a017c8348d4c434
+  - 480a8720ed90abc40a306ee1c9af89ae
+  - 1c2130588aba84e4ea737951aa406aed
+  - 6487065a187e7454d9ae19499f1ed87e
+  - 9608683f2bcad64499e98493e5e62249
+  - caa2ca7b2d02d4a448bcc9cedff1e7a1
+  - 4d766840f08c8214a918d81bb0f0775d
+  - d9ebe4a65e31e5b4dbec76fb2aa366a3
+  - 412cc37b5ca51d44c8a8f485c810c6ea
+  - d22b2b9372df353498ed968aba7178b4
+  - 2e5176e664805244a99a829117bd6e0e
+  - ea48efdda59297a4e87326a75642ff40
+  - 07b1337b8eac8b24a836e397ae5e1088
+  - 14b1c1d0ca6205b4e917735f7a668c1e
+  - 334714fc29e21254c95d90973dd04677
+  - d925b03a166c78f4eb969b380ed779c6
+  - 35f45999bd56faf46a4808e050982f96
+  - b278bf38a63578f4faa7a55e0c151336
+  - 32f49f2f5d9ac204e94497a7c7e32bf8
+  - c257095fae9d70c4b92cef6b3eaa45b6
+  - 1742c3e7c8dfe464fa5dfc66714d40db
+  - f26dc516279f1eb4e8ed6fd370c441ac
+  - f51cf62ddfab7184eb9d2e4820ea4649
+  - 19ee854d9ecf9714d9f241f52402c349
+  - dacbd4e24a48fbe43aa98d7b31aa9c26
+  - 043f2d3d13f80f24b8720d2cb937e63a
+  - 0997a02920df71c4e987b44dc433b1af
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

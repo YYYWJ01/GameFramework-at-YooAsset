@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 3802159433
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: fb870b8bdacb7dc6aacb355b60c28377
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 939e20ecac0e95a3f7c5cfb3e57acb1d
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Art/Actor/E3D-Nemesis/Material/E3D-Nemesis_Hair_D.mat
+- Assets/Art/Actor/E3D-Nemesis/Material/E3D-Nemesis_D.mat
+Dependencies:
+- G:/GitHub/GameFramework-at-YooAsset/Bundles/DefaultPackage/StandaloneWindows64/OutputCache/share_assets_art_actor_e3d-nemesis_material_texture.bundle

@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 1629574519
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1d65783f7ce42e1fe2048e30862b2947
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Art/Actor/E3D-Nemesis/Material/Texture/E3D-Nemesis_Hair_D.tga
+- Assets/Art/Actor/E3D-Nemesis/Material/Texture/E3D-Nemesis_D.tga
+Dependencies: []

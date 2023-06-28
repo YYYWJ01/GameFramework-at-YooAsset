@@ -1,0 +1,29 @@
+[
+  {
+    "BuffID": 1001,
+    "name": "眩晕",
+    "StackNum": 1,
+    "DurTime": 2,
+    "ResultType": 0,
+    "RemoveWhenDie": 0,
+    "DotDamageData": {
+      "MagicType": 0,
+      "AttrType": 0,
+      "Param1": 0,
+      "Param2": 0,
+      "Param3": 0,
+      "MaxLimit": 0
+    },
+    "DotTickConfig": {
+      "TickTime": 0,
+      "TickWhenAdd": 0
+    },
+    "AttrData": [
+      {
+        "DataType": 1,
+        "AddType": 1,
+        "Value": 1
+      }
+    ]
+  }
+]

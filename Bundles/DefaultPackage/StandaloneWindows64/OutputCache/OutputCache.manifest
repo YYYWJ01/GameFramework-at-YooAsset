@@ -1,0 +1,57 @@
+ManifestFileVersion: 0
+CRC: 2748579648
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: assets_assetraw_actor.bundle
+      Dependencies:
+        Dependency_0: share_assets_art_actor_e3d-marugan_fbx.bundle
+        Dependency_1: share_assets_art_actor_e3d-marugan_material.bundle
+        Dependency_2: share_assets_art_actor_e3d-nemesis_fbx.bundle
+        Dependency_3: share_assets_art_actor_e3d-nemesis_material.bundle
+        Dependency_4: share_assets_art_actor_e3d-vivi_fbx.bundle
+        Dependency_5: share_assets_art_actor_e3d-vivi_material.bundle
+    Info_1:
+      Name: assets_assetraw_configs.bundle
+      Dependencies: {}
+    Info_2:
+      Name: assets_assetraw_scenes_battle.bundle
+      Dependencies:
+        Dependency_0: assets_assetraw_actor.bundle
+    Info_3:
+      Name: assets_assetraw_ui.bundle
+      Dependencies:
+        Dependency_0: unityshaders.bundle
+    Info_4:
+      Name: share_assets_art_actor_e3d-marugan_fbx.bundle
+      Dependencies: {}
+    Info_5:
+      Name: share_assets_art_actor_e3d-marugan_material_texture.bundle
+      Dependencies: {}
+    Info_6:
+      Name: share_assets_art_actor_e3d-marugan_material.bundle
+      Dependencies:
+        Dependency_0: share_assets_art_actor_e3d-marugan_material_texture.bundle
+    Info_7:
+      Name: share_assets_art_actor_e3d-nemesis_fbx.bundle
+      Dependencies: {}
+    Info_8:
+      Name: share_assets_art_actor_e3d-nemesis_material.bundle
+      Dependencies:
+        Dependency_0: share_assets_art_actor_e3d-nemesis_material_texture.bundle
+    Info_9:
+      Name: share_assets_art_actor_e3d-nemesis_material_texture.bundle
+      Dependencies: {}
+    Info_10:
+      Name: share_assets_art_actor_e3d-vivi_fbx.bundle
+      Dependencies: {}
+    Info_11:
+      Name: share_assets_art_actor_e3d-vivi_material_texture.bundle
+      Dependencies: {}
+    Info_12:
+      Name: share_assets_art_actor_e3d-vivi_material.bundle
+      Dependencies:
+        Dependency_0: share_assets_art_actor_e3d-vivi_material_texture.bundle
+    Info_13:
+      Name: unityshaders.bundle
+      Dependencies: {}

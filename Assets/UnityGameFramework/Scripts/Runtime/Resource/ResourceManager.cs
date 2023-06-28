@@ -579,9 +579,7 @@ namespace GameFramework.Resource
             }
             
             var assetPackage =  YooAssets.TryGetPackage(PackageName);
-            
             AssetInfo assetInfo = assetPackage.GetAssetInfo(assetName);
-
             if (assetInfo == null)
             {
                 string errorMessage = Utility.Text.Format("Can not load asset '{0}'.", assetName);
@@ -597,7 +595,6 @@ namespace GameFramework.Resource
             OperationHandleBase handleBase;
 
             bool isRawResource = assetInfo.IsInvalid;
-            
             if (isRawResource)
             {
                 handleBase = assetPackage.LoadRawFileAsync(assetInfo);

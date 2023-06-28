@@ -7,6 +7,9 @@ using UGFExtensions.Timer;
 using UnityEngine;
 using UnityGameFramework.Runtime;
 
+/// <summary>
+/// 计数器组件
+/// </summary>
 public class TimerComponent : GameFrameworkComponent
 {
     /// <summary>

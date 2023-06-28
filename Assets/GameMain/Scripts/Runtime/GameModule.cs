@@ -9,7 +9,7 @@ using UnityGameFramework.Runtime;
 /// <summary>
 /// 游戏模块
 /// </summary>
-public class GameModule:AbsGameModuleMgr<GameModule>
+public class GameModule : AbsGameModuleMgr<GameModule>
 {
     #region BaseComponents
     /// <summary>

@@ -47,9 +47,11 @@ namespace UnityGameFramework.Runtime
             obj.layer = m_UILayer;
             
             RectTransform rectTransform = obj.GetComponent<RectTransform>();
-            rectTransform.anchorMin = m_Half;
-            rectTransform.anchorMax = m_Half;
+            rectTransform.anchorMin = Vector2.zero;
+            rectTransform.anchorMax = Vector2.one;
             rectTransform.anchoredPosition = Vector2.zero;
+            rectTransform.sizeDelta = Vector2.zero;
+
             return obj.GetOrAddComponent<UIForm>();
         }
 

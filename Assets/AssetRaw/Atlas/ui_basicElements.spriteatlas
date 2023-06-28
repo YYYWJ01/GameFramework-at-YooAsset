@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ui_basicElements
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 9d85641542d3db0468abb31003d71554, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: f2e87dd7a449f4e9ca1a23dca3aba1d0, type: 3}
+  - {fileID: 21300000, guid: 85d023e8896c14db5a7580da5005e486, type: 3}
+  - {fileID: 21300000, guid: ee2babf884bbb499f9b6455c5fb37ce1, type: 3}
+  - {fileID: 21300000, guid: 79d338e9760ee4c489d4d5bfb65e3242, type: 3}
+  - {fileID: 21300000, guid: 513b4d4b3afb94872a3fee36f2221f28, type: 3}
+  - {fileID: 21300000, guid: 47efedae483a6492cb1b7cd5115613b7, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - ShineRound
+  - RingShine
+  - ShineOval
+  - Glitter
+  - Circle
+  - Rectangle
+  m_RenderDataMap: {}
+  m_Tag: ui_basicElements
+  m_IsVariant: 0

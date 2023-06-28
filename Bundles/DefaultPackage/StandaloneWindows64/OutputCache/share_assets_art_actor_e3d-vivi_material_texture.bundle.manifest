@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 1593900816
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: bd6f77eec04ceda7512f79a4bed80150
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Art/Actor/E3D-VIVI/Material/Texture/girl_leg_01_d.png
+- Assets/Art/Actor/E3D-VIVI/Material/Texture/Wys_rockgirl_girl_shoes_01_d.png
+- Assets/Art/Actor/E3D-VIVI/Material/Texture/Wys_rockgirl_girl_Silk_01_d.png
+- Assets/Art/Actor/E3D-VIVI/Material/Texture/Wys_rock girl_eyelash_01_d.png
+- Assets/Art/Actor/E3D-VIVI/Material/Texture/girl_face_01_d.png
+- Assets/Art/Actor/E3D-VIVI/Material/Texture/girl_body_01_d.png
+- Assets/Art/Actor/E3D-VIVI/Material/Texture/Wys_rockgirl_girl_hair_01_d.png
+- Assets/Art/Actor/E3D-VIVI/Material/Texture/girl_hand_01_d.png
+- Assets/Art/Actor/E3D-VIVI/Material/Texture/Wys_rockgirl_girl_body_01_d.png
+- Assets/Art/Actor/E3D-VIVI/Material/Texture/Wys_rock girl__eyebrow_01_d.png
+- Assets/Art/Actor/E3D-VIVI/Material/Texture/Wys_rockgirl_girl_headdress_01_d.png
+- Assets/Art/Actor/E3D-VIVI/Material/Texture/Wys_rock girl_pupilla_01_d.png
+Dependencies: []

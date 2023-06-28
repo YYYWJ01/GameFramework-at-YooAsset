@@ -333,6 +333,17 @@ namespace UnityGameFramework.Runtime
         /// </summary>
         /// <param name="soundAssetName">声音资源名称。</param>
         /// <param name="soundGroupName">声音组名称。</param>
+        /// <returns>声音的序列编号。</returns>
+        public int PlaySound(string soundAssetName, SoundProperty soundProperty)
+        {
+            return PlaySound(soundAssetName, soundProperty.SoundGroup, DefaultPriority, null, null, null);
+        }
+
+        /// <summary>
+        /// 播放声音。
+        /// </summary>
+        /// <param name="soundAssetName">声音资源名称。</param>
+        /// <param name="soundGroupName">声音组名称。</param>
         /// <param name="priority">加载声音资源的优先级。</param>
         /// <returns>声音的序列编号。</returns>
         public int PlaySound(string soundAssetName, string soundGroupName, int priority)

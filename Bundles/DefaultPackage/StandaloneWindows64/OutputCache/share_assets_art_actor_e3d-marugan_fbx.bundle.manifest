@@ -1,0 +1,97 @@
+ManifestFileVersion: 0
+CRC: 1555814577
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: aeee320fa1daa3671be66adb230ac5f4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 191540710b9141ac59a908ea8c08ef60
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Art/Actor/E3D-Marugan/FBX/AttackD.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/MountB.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/AttackA.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/AttackC.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/SkillJ.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/Delivery.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/Jump01A.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/SitC.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/IdleA.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/Fishing.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/SkillN.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/SkillE.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/Jump01C.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/SkillG.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/SkillL.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/Pill.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/SitB.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/Sell.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/Hunting.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/SkillK.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/Revive.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/SitA.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/Cooking.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/Steed Summons.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/Dead.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/Forging.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/SkillA.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/SkillF.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/Swim_L.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/Jump02C.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/Stand.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/BattleRun.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/Jump02B.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/Swim_F.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/Swim_R.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/Operate.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/Jump02A.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/BattleStand.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/Run.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/Walk.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/SkillP.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/Marugan Animator.controller
+- Assets/Art/Actor/E3D-Marugan/FBX/SkillH.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/SwimStand.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/MountA.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/Swim_Dead.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/Felling.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/AttackB.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/Swim_B.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/Collect.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/SkillB.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/Retreat.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/Swim_DeadStand.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/SkillM.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/DamageA.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/Talk.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/E3D-Marugan01.FBX
+- Assets/Art/Actor/E3D-Marugan/FBX/Jump01B.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/Mining.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/SkillI.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/BattleRetreat.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/SkillC.anim
+- Assets/Art/Actor/E3D-Marugan/FBX/SkillD.anim
+Dependencies: []

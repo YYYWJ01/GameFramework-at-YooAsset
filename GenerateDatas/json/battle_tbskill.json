@@ -1,0 +1,61 @@
+[
+  {
+    "id": 1001,
+    "name": "普攻",
+    "SkillDispID": 1001,
+    "SkillType": 0,
+    "desc": "普攻",
+    "CostMP": 0,
+    "GCDID": 0,
+    "SkillCD": 0,
+    "IsRepeatTrigger": false,
+    "BuffID": [
+      1001,
+      1002,
+      1003,
+      1004
+    ],
+    "AttrDamageData": [
+      {
+        "MagicType": 1,
+        "AttrType": 1,
+        "Param1": 1.2,
+        "Param2": 100,
+        "Param3": 0,
+        "MaxLimit": 0
+      }
+    ]
+  },
+  {
+    "id": 2001,
+    "name": "混伤",
+    "SkillDispID": 2001,
+    "SkillType": 0,
+    "desc": "混伤",
+    "CostMP": 1,
+    "GCDID": 1,
+    "SkillCD": 1,
+    "IsRepeatTrigger": false,
+    "BuffID": [
+      1001
+    ],
+    "AttrDamageData": [
+      {
+        "MagicType": 1,
+        "AttrType": 1,
+        "Param1": 1.2,
+        "Param2": 100,
+        "Param3": 0,
+        "MaxLimit": 0
+      },
+      {
+        "MagicType": 2,
+        "AttrType": 1,
+        "Param1": 1.4,
+        "Param2": 100,
+        "Param3": 0,
+        "MaxLimit": 0
+      }
+    ]
+  }
+]

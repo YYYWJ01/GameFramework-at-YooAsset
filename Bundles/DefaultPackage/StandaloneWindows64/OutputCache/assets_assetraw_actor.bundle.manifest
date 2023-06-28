@@ -1,0 +1,50 @@
+ManifestFileVersion: 0
+CRC: 3494047390
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 10d2c5d29383015527b6bcec983c50ac
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0333cb95ee588e1d07a46efd3fb5a271
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AssetRaw/Actor/E3D-VIVI.prefab
+- Assets/AssetRaw/Actor/E3D-ElfA.prefab
+- Assets/AssetRaw/Actor/E3D-Rimoo.prefab
+- Assets/AssetRaw/Actor/E3D-Marugan01.prefab
+- Assets/AssetRaw/Actor/E3D-Assassin.prefab
+- Assets/AssetRaw/Actor/E3D-Nat01.prefab
+- Assets/AssetRaw/Actor/E3D-Nemesis.prefab
+- Assets/AssetRaw/Actor/E3D-Archer.prefab
+Dependencies:
+- G:/GitHub/GameFramework-at-YooAsset/Bundles/DefaultPackage/StandaloneWindows64/OutputCache/share_assets_art_actor_e3d-marugan_fbx.bundle
+- G:/GitHub/GameFramework-at-YooAsset/Bundles/DefaultPackage/StandaloneWindows64/OutputCache/share_assets_art_actor_e3d-marugan_material.bundle
+- G:/GitHub/GameFramework-at-YooAsset/Bundles/DefaultPackage/StandaloneWindows64/OutputCache/share_assets_art_actor_e3d-nemesis_fbx.bundle
+- G:/GitHub/GameFramework-at-YooAsset/Bundles/DefaultPackage/StandaloneWindows64/OutputCache/share_assets_art_actor_e3d-nemesis_material.bundle
+- G:/GitHub/GameFramework-at-YooAsset/Bundles/DefaultPackage/StandaloneWindows64/OutputCache/share_assets_art_actor_e3d-vivi_fbx.bundle
+- G:/GitHub/GameFramework-at-YooAsset/Bundles/DefaultPackage/StandaloneWindows64/OutputCache/share_assets_art_actor_e3d-vivi_material.bundle

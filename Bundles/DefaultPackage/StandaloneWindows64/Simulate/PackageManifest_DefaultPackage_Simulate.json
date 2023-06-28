@@ -6,16 +6,487 @@
     "PackageVersion": "Simulate",
     "AssetList": [
         {
+            "Address": "E3D-Archer",
+            "AssetPath": "Assets/AssetRaw/Actor/E3D-Archer.prefab",
+            "AssetTags": [
+                "Actor"
+            ],
+            "BundleID": 0,
+            "DependIDs": []
+        },
+        {
+            "Address": "E3D-Assassin",
+            "AssetPath": "Assets/AssetRaw/Actor/E3D-Assassin.prefab",
+            "AssetTags": [
+                "Actor"
+            ],
+            "BundleID": 0,
+            "DependIDs": []
+        },
+        {
+            "Address": "E3D-ElfA",
+            "AssetPath": "Assets/AssetRaw/Actor/E3D-ElfA.prefab",
+            "AssetTags": [
+                "Actor"
+            ],
+            "BundleID": 0,
+            "DependIDs": []
+        },
+        {
+            "Address": "E3D-Marugan01",
+            "AssetPath": "Assets/AssetRaw/Actor/E3D-Marugan01.prefab",
+            "AssetTags": [
+                "Actor"
+            ],
+            "BundleID": 0,
+            "DependIDs": []
+        },
+        {
+            "Address": "E3D-Nat01",
+            "AssetPath": "Assets/AssetRaw/Actor/E3D-Nat01.prefab",
+            "AssetTags": [
+                "Actor"
+            ],
+            "BundleID": 0,
+            "DependIDs": []
+        },
+        {
+            "Address": "E3D-Nemesis",
+            "AssetPath": "Assets/AssetRaw/Actor/E3D-Nemesis.prefab",
+            "AssetTags": [
+                "Actor"
+            ],
+            "BundleID": 0,
+            "DependIDs": []
+        },
+        {
+            "Address": "E3D-Rimoo",
+            "AssetPath": "Assets/AssetRaw/Actor/E3D-Rimoo.prefab",
+            "AssetTags": [
+                "Actor"
+            ],
+            "BundleID": 0,
+            "DependIDs": []
+        },
+        {
+            "Address": "E3D-VIVI",
+            "AssetPath": "Assets/AssetRaw/Actor/E3D-VIVI.prefab",
+            "AssetTags": [
+                "Actor"
+            ],
+            "BundleID": 0,
+            "DependIDs": []
+        },
+        {
+            "Address": "ui_avatars",
+            "AssetPath": "Assets/AssetRaw/Atlas/ui_avatars.spriteatlas",
+            "AssetTags": [
+                "Atlas"
+            ],
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
+            "Address": "ui_basicElements",
+            "AssetPath": "Assets/AssetRaw/Atlas/ui_basicElements.spriteatlas",
+            "AssetTags": [
+                "Atlas"
+            ],
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
+            "Address": "ui_buttons",
+            "AssetPath": "Assets/AssetRaw/Atlas/ui_buttons.spriteatlas",
+            "AssetTags": [
+                "Atlas"
+            ],
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
+            "Address": "ui_gameItems",
+            "AssetPath": "Assets/AssetRaw/Atlas/ui_gameItems.spriteatlas",
+            "AssetTags": [
+                "Atlas"
+            ],
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
+            "Address": "ui_gameScene",
+            "AssetPath": "Assets/AssetRaw/Atlas/ui_gameScene.spriteatlas",
+            "AssetTags": [
+                "Atlas"
+            ],
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
+            "Address": "ui_homeScene",
+            "AssetPath": "Assets/AssetRaw/Atlas/ui_homeScene.spriteatlas",
+            "AssetTags": [
+                "Atlas"
+            ],
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
+            "Address": "ui_icons",
+            "AssetPath": "Assets/AssetRaw/Atlas/ui_icons.spriteatlas",
+            "AssetTags": [
+                "Atlas"
+            ],
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
+            "Address": "ui_levelScene",
+            "AssetPath": "Assets/AssetRaw/Atlas/ui_levelScene.spriteatlas",
+            "AssetTags": [
+                "Atlas"
+            ],
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
+            "Address": "ui_popups",
+            "AssetPath": "Assets/AssetRaw/Atlas/ui_popups.spriteatlas",
+            "AssetTags": [
+                "Atlas"
+            ],
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
+            "Address": "Ball",
+            "AssetPath": "Assets/AssetRaw/Audios/Game/Ball.wav",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 2,
+            "DependIDs": []
+        },
+        {
+            "Address": "Bomb",
+            "AssetPath": "Assets/AssetRaw/Audios/Game/Bomb.wav",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 2,
+            "DependIDs": []
+        },
+        {
+            "Address": "BoosterAward",
+            "AssetPath": "Assets/AssetRaw/Audios/Game/BoosterAward.wav",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 2,
+            "DependIDs": []
+        },
+        {
+            "Address": "Collectable",
+            "AssetPath": "Assets/AssetRaw/Audios/Game/Collectable.wav",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 2,
+            "DependIDs": []
+        },
+        {
+            "Address": "ColorBomb",
+            "AssetPath": "Assets/AssetRaw/Audios/Game/ColorBomb.wav",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 2,
+            "DependIDs": []
+        },
+        {
+            "Address": "CubePress",
+            "AssetPath": "Assets/AssetRaw/Audios/Game/CubePress.wav",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 2,
+            "DependIDs": []
+        },
+        {
+            "Address": "CubePressError",
+            "AssetPath": "Assets/AssetRaw/Audios/Game/CubePressError.wav",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 2,
+            "DependIDs": []
+        },
+        {
+            "Address": "Dynamite",
+            "AssetPath": "Assets/AssetRaw/Audios/Game/Dynamite.wav",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 2,
+            "DependIDs": []
+        },
+        {
+            "Address": "IceBreak",
+            "AssetPath": "Assets/AssetRaw/Audios/Game/IceBreak.wav",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 2,
+            "DependIDs": []
+        },
+        {
+            "Address": "ReachedGoal",
+            "AssetPath": "Assets/AssetRaw/Audios/Game/ReachedGoal.wav",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 2,
+            "DependIDs": []
+        },
+        {
+            "Address": "Stone",
+            "AssetPath": "Assets/AssetRaw/Audios/Game/Stone.wav",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 2,
+            "DependIDs": []
+        },
+        {
+            "Address": "Button",
+            "AssetPath": "Assets/AssetRaw/Audios/UI/Button.wav",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 3,
+            "DependIDs": []
+        },
+        {
+            "Address": "BuyPopButton",
+            "AssetPath": "Assets/AssetRaw/Audios/UI/BuyPopButton.wav",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 3,
+            "DependIDs": []
+        },
+        {
+            "Address": "CoinsPopButton",
+            "AssetPath": "Assets/AssetRaw/Audios/UI/CoinsPopButton.wav",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 3,
+            "DependIDs": []
+        },
+        {
+            "Address": "Lose",
+            "AssetPath": "Assets/AssetRaw/Audios/UI/Lose.wav",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 3,
+            "DependIDs": []
+        },
+        {
+            "Address": "PopupClose",
+            "AssetPath": "Assets/AssetRaw/Audios/UI/PopupClose.wav",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 3,
+            "DependIDs": []
+        },
+        {
+            "Address": "PopupCloseButton",
+            "AssetPath": "Assets/AssetRaw/Audios/UI/PopupCloseButton.mp3",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 3,
+            "DependIDs": []
+        },
+        {
+            "Address": "PopupOpen",
+            "AssetPath": "Assets/AssetRaw/Audios/UI/PopupOpen.mp3",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 3,
+            "DependIDs": []
+        },
+        {
+            "Address": "PopupOpenButton",
+            "AssetPath": "Assets/AssetRaw/Audios/UI/PopupOpenButton.wav",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 3,
+            "DependIDs": []
+        },
+        {
+            "Address": "PopupOpenWhoosh",
+            "AssetPath": "Assets/AssetRaw/Audios/UI/PopupOpenWhoosh.wav",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 3,
+            "DependIDs": []
+        },
+        {
+            "Address": "Rain",
+            "AssetPath": "Assets/AssetRaw/Audios/UI/Rain.mp3",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 3,
+            "DependIDs": []
+        },
+        {
+            "Address": "Win",
+            "AssetPath": "Assets/AssetRaw/Audios/UI/Win.wav",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 3,
+            "DependIDs": []
+        },
+        {
+            "Address": "WinStarPop",
+            "AssetPath": "Assets/AssetRaw/Audios/UI/WinStarPop.wav",
+            "AssetTags": [
+                "Audios"
+            ],
+            "BundleID": 3,
+            "DependIDs": []
+        },
+        {
             "Address": "about",
             "AssetPath": "Assets/AssetRaw/Configs/about.txt",
             "AssetTags": [
                 "Configs"
             ],
-            "BundleID": 0,
+            "BundleID": 4,
+            "DependIDs": []
+        },
+        {
+            "Address": "Battle",
+            "AssetPath": "Assets/AssetRaw/Scenes/Battle.unity",
+            "AssetTags": [
+                "Scenes"
+            ],
+            "BundleID": 5,
+            "DependIDs": []
+        },
+        {
+            "Address": "ui_home",
+            "AssetPath": "Assets/AssetRaw/UI/ui_home.prefab",
+            "AssetTags": [
+                "UI"
+            ],
+            "BundleID": 6,
+            "DependIDs": []
+        },
+        {
+            "Address": "ui_loading",
+            "AssetPath": "Assets/AssetRaw/UI/ui_loading.prefab",
+            "AssetTags": [
+                "UI"
+            ],
+            "BundleID": 6,
+            "DependIDs": []
+        },
+        {
+            "Address": "3500汉字+符号+英文字符集",
+            "AssetPath": "Assets/AssetRaw/Fonts/3500汉字+符号+英文字符集.txt",
+            "AssetTags": [
+                "Fonts"
+            ],
+            "BundleID": 7,
+            "DependIDs": []
+        },
+        {
+            "Address": "NotoSansSC-Regular",
+            "AssetPath": "Assets/AssetRaw/Fonts/NotoSansSC-Regular.otf",
+            "AssetTags": [
+                "Fonts"
+            ],
+            "BundleID": 7,
+            "DependIDs": []
+        },
+        {
+            "Address": "NotoSansSC-Regular_SDF_D",
+            "AssetPath": "Assets/AssetRaw/Fonts/NotoSansSC-Regular_SDF_D.asset",
+            "AssetTags": [
+                "Fonts"
+            ],
+            "BundleID": 7,
+            "DependIDs": []
+        },
+        {
+            "Address": "NotoSansSC-Regular_SDF_S",
+            "AssetPath": "Assets/AssetRaw/Fonts/NotoSansSC-Regular_SDF_S.asset",
+            "AssetTags": [
+                "Fonts"
+            ],
+            "BundleID": 7,
             "DependIDs": []
         }
     ],
     "BundleList": [
+        {
+            "BundleName": "assets_assetraw_actor.bundle",
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [
+                "Actor"
+            ],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_assetraw_atlas.bundle",
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [
+                "Atlas"
+            ],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_assetraw_audios_game.bundle",
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [
+                "Audios"
+            ],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_assetraw_audios_ui.bundle",
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [
+                "Audios"
+            ],
+            "ReferenceIDs": []
+        },
         {
             "BundleName": "assets_assetraw_configs.bundle",
             "FileHash": "00000000000000000000000000000000",
@@ -25,6 +496,42 @@
             "LoadMethod": 0,
             "Tags": [
                 "Configs"
+            ],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_assetraw_scenes_battle.bundle",
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [
+                "Scenes"
+            ],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_assetraw_ui.bundle",
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [
+                "UI"
+            ],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_assetraw_fonts.bundle",
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [
+                "Fonts"
             ],
             "ReferenceIDs": []
         }

@@ -3,6 +3,9 @@ using UnityEngine;
 
 namespace UnityGameFramework.Runtime
 {
+    /// <summary>
+    /// 登录组件
+    /// </summary>
     [DisallowMultipleComponent]
     [AddComponentMenu("Game Framework/Logic")]
     public sealed class LogicComponent : GameFrameworkComponent

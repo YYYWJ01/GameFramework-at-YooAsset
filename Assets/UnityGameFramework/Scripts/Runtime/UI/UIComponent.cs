@@ -511,6 +511,17 @@ namespace UnityGameFramework.Runtime
         /// 打开界面。
         /// </summary>
         /// <param name="uiFormAssetName">界面资源名称。</param>
+        /// <param name="uiProperty">UI自定义属性。</param>
+        /// <returns>界面的序列编号。</returns>
+        public int OpenUIForm(string uiFormAssetName,UIProperty uiProperty, object userData = null)
+        {
+            return OpenUIForm(uiFormAssetName, uiProperty.UIGroup, DefaultPriority, false, userData);
+        }
+
+        /// <summary>
+        /// 打开界面。
+        /// </summary>
+        /// <param name="uiFormAssetName">界面资源名称。</param>
         /// <param name="uiGroupName">界面组名称。</param>
         /// <param name="priority">加载界面资源的优先级。</param>
         /// <returns>界面的序列编号。</returns>

@@ -1,0 +1,33 @@
+ManifestFileVersion: 0
+CRC: 2261634173
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f862fae0e477e8b3e0bc36a89348cab9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 939e20ecac0e95a3f7c5cfb3e57acb1d
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Art/Actor/E3D-VIVI/Material/Wys_rockgirl_girl_body_01_d.mat
+- Assets/Art/Actor/E3D-VIVI/Material/girl_leg_01_d.mat
+- Assets/Art/Actor/E3D-VIVI/Material/girl_hand_01_d.mat
+- Assets/Art/Actor/E3D-VIVI/Material/Wys_rock girl_eyelash_01_d.mat
+- Assets/Art/Actor/E3D-VIVI/Material/Wys_rockgirl_girl_headdress_01_d.mat
+- Assets/Art/Actor/E3D-VIVI/Material/girl_body_01_d.mat
+- Assets/Art/Actor/E3D-VIVI/Material/Wys_rock girl_pupilla_01_d.mat
+- Assets/Art/Actor/E3D-VIVI/Material/girl_face_01_d.mat
+- Assets/Art/Actor/E3D-VIVI/Material/Wys_rockgirl_girl_shoes_01_d.mat
+- Assets/Art/Actor/E3D-VIVI/Material/Wys_rock girl__eyebrow_01_d.mat
+- Assets/Art/Actor/E3D-VIVI/Material/Wys_rockgirl_girl_hair_01_d.mat
+- Assets/Art/Actor/E3D-VIVI/Material/Wys_rockgirl_girl_Silk_01_d.mat
+Dependencies:
+- G:/GitHub/GameFramework-at-YooAsset/Bundles/DefaultPackage/StandaloneWindows64/OutputCache/share_assets_art_actor_e3d-vivi_material_texture.bundle

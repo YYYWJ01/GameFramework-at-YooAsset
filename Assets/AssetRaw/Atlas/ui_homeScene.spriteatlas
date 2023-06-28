@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ui_homeScene
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 17278efaf9da51946a833494adeb80d5, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 44d56731aaede45fb88b09a255c096f4, type: 3}
+  - {fileID: 21300000, guid: 7eab4d41bdf154df9b6d8d03c8510e9a, type: 3}
+  - {fileID: 21300000, guid: d6fdfac2f22ba4d048169bc720b6fd2f, type: 3}
+  - {fileID: 21300000, guid: c7674b8315c584693a847960449e3e5d, type: 3}
+  - {fileID: 21300000, guid: 1c7a1505430d943df8053ecfeac5cd10, type: 3}
+  - {fileID: 21300000, guid: 8a879f25be2db4c3ea95c14842524932, type: 3}
+  - {fileID: 21300000, guid: f64295b54511643c2a7577bd1d15ceb8, type: 3}
+  - {fileID: 21300000, guid: 1ff90ca817b5d41b49e4ae156a0f08b6, type: 3}
+  - {fileID: 21300000, guid: f53ba5391c2714deb87c28adc0a290cd, type: 3}
+  - {fileID: 21300000, guid: feb654fb05de84d3b862cdfd20571cd4, type: 3}
+  - {fileID: 21300000, guid: 9f14cb7c1fed14672b2651547013520e, type: 3}
+  - {fileID: 21300000, guid: a070ed9c4a763404b87cfc1b560d314a, type: 3}
+  - {fileID: 21300000, guid: 09e3691d1bd2c4d1188c434fee7cf7f8, type: 3}
+  - {fileID: 21300000, guid: 0537fc6e6b257433a9cf394d8a14f458, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - ConfettiGreen
+  - RadialShine2
+  - StarShine
+  - LogoCubes
+  - WhiteStar
+  - LogoPuzzle
+  - ConfettiPurple
+  - PlayButtonShadow
+  - PlayText
+  - ConfettiYellow
+  - LogoMatchKit
+  - ConfettiRed
+  - RadialShine1
+  - PlayButton
+  m_RenderDataMap: {}
+  m_Tag: ui_homeScene
+  m_IsVariant: 0

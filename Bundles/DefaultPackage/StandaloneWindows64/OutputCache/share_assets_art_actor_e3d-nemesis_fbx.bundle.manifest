@@ -1,0 +1,87 @@
+ManifestFileVersion: 0
+CRC: 3485784487
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b9b2e8c62d1818982bf48e113bb49311
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 191540710b9141ac59a908ea8c08ef60
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Art/Actor/E3D-Nemesis/FBX/Sell.anim
+- Assets/Art/Actor/E3D-Nemesis/FBX/SitA.anim
+- Assets/Art/Actor/E3D-Nemesis/FBX/DamageA.anim
+- Assets/Art/Actor/E3D-Nemesis/FBX/Forging.anim
+- Assets/Art/Actor/E3D-Nemesis/FBX/SkillI.anim
+- Assets/Art/Actor/E3D-Nemesis/FBX/IdleB.anim
+- Assets/Art/Actor/E3D-Nemesis/FBX/Steed Summons.anim
+- Assets/Art/Actor/E3D-Nemesis/FBX/SkillH.anim
+- Assets/Art/Actor/E3D-Nemesis/FBX/Revive.anim
+- Assets/Art/Actor/E3D-Nemesis/FBX/Nemesis.controller
+- Assets/Art/Actor/E3D-Nemesis/FBX/Walk.anim
+- Assets/Art/Actor/E3D-Nemesis/FBX/Swim_DeadStand.anim
+- Assets/Art/Actor/E3D-Nemesis/FBX/Pray.anim
+- Assets/Art/Actor/E3D-Nemesis/FBX/SkillF.anim
+- Assets/Art/Actor/E3D-Nemesis/FBX/SkillD.anim
+- Assets/Art/Actor/E3D-Nemesis/FBX/SkillE.anim
+- Assets/Art/Actor/E3D-Nemesis/FBX/SwimStand.anim
+- Assets/Art/Actor/E3D-Nemesis/FBX/Talk.anim
+- Assets/Art/Actor/E3D-Nemesis/FBX/Swim_F.anim
+- Assets/Art/Actor/E3D-Nemesis/FBX/Retreat.anim
+- Assets/Art/Actor/E3D-Nemesis/FBX/Swim_R.anim
+- Assets/Art/Actor/E3D-Nemesis/FBX/Swim_L.anim
+- Assets/Art/Actor/E3D-Nemesis/FBX/SitC.anim
+- Assets/Art/Actor/E3D-Nemesis/FBX/Cooking.anim
+- Assets/Art/Actor/E3D-Nemesis/FBX/Stand.anim
+- Assets/Art/Actor/E3D-Nemesis/FBX/MountB.anim
+- Assets/Art/Actor/E3D-Nemesis/FBX/SkillC.anim
+- Assets/Art/Actor/E3D-Nemesis/FBX/SkillJ.anim
+- Assets/Art/Actor/E3D-Nemesis/FBX/MountC.anim
+- Assets/Art/Actor/E3D-Nemesis/FBX/SitB.anim
+- Assets/Art/Actor/E3D-Nemesis/FBX/Swim_B.anim
+- Assets/Art/Actor/E3D-Nemesis/FBX/BattleRun.anim
+- Assets/Art/Actor/E3D-Nemesis/FBX/IdleA.anim
+- Assets/Art/Actor/E3D-Nemesis/FBX/Run.anim
+- Assets/Art/Actor/E3D-Nemesis/FBX/Delivery.anim
+- Assets/Art/Actor/E3D-Nemesis/FBX/SkillB.anim
+- Assets/Art/Actor/E3D-Nemesis/FBX/SkillA.anim
+- Assets/Art/Actor/E3D-Nemesis/FBX/BattleRetreat.anim
+- Assets/Art/Actor/E3D-Nemesis/FBX/BattleStand.anim
+- Assets/Art/Actor/E3D-Nemesis/FBX/Fishing.anim
+- Assets/Art/Actor/E3D-Nemesis/FBX/MountA.anim
+- Assets/Art/Actor/E3D-Nemesis/FBX/Pill.anim
+- Assets/Art/Actor/E3D-Nemesis/FBX/SkillG.anim
+- Assets/Art/Actor/E3D-Nemesis/FBX/Felling.anim
+- Assets/Art/Actor/E3D-Nemesis/FBX/Greet.anim
+- Assets/Art/Actor/E3D-Nemesis/FBX/Laugh.anim
+- Assets/Art/Actor/E3D-Nemesis/FBX/Mining.anim
+- Assets/Art/Actor/E3D-Nemesis/FBX/Hunting.anim
+- Assets/Art/Actor/E3D-Nemesis/FBX/E3D-Nemesis.FBX
+- Assets/Art/Actor/E3D-Nemesis/FBX/Swim_Dead.anim
+- Assets/Art/Actor/E3D-Nemesis/FBX/Operate.anim
+- Assets/Art/Actor/E3D-Nemesis/FBX/SkillK.anim
+- Assets/Art/Actor/E3D-Nemesis/FBX/Dead.anim
+Dependencies: []

@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 594513504
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 886036f460acf46bd4d046ccec42c939
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 939e20ecac0e95a3f7c5cfb3e57acb1d
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Art/Actor/E3D-Marugan/Material/Wp_Ax_Demiluneaxe_01.mat
+- Assets/Art/Actor/E3D-Marugan/Material/E3D-Marugan_D.mat
+Dependencies:
+- G:/GitHub/GameFramework-at-YooAsset/Bundles/DefaultPackage/StandaloneWindows64/OutputCache/share_assets_art_actor_e3d-marugan_material_texture.bundle
