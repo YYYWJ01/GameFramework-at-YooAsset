@@ -34,14 +34,14 @@ namespace Breeze.UILogic
         public void OnClickBtnTest1(GameObject go, PointerEventData eventData)
         {
             Debug.Log(" onClickBtn 1 ! "+go.name);
-            MUtils.PlayOnClickBtnAnimaton(go.transform.parent);
+            MUtils.PlayBtnAnimatonAndSound(go.transform.parent);
 
             StartCoroutine(MUtils.InvokeOnClickOpenAction(UI.Home));
         }
 
         public void OnClickBtnTest2(GameObject go, PointerEventData eventData)
         {
-            MUtils.PlayOnClickBtnAnimaton(go.transform.parent);
+            MUtils.PlayBtnAnimatonAndSound(go.transform.parent);
             Debug.Log(" onClickBtn 2 ! "+go.name);
 
             StartCoroutine(MUtils.InvokeOnClickCloseAction(this.UIForm));

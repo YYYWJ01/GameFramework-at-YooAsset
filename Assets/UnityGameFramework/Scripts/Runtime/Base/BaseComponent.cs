@@ -13,37 +13,73 @@ namespace UnityGameFramework.Runtime
     [AddComponentMenu("Game Framework/Base")]
     public sealed class BaseComponent : GameFrameworkComponent
     {
+        /// <summary>
+        /// 默认 Windows DPI
+        /// </summary>
         private const int DefaultDpi = 96;  // default windows dpi
 
+        /// <summary>
+        /// 记录暂停前的游戏速度
+        /// </summary>
         private float m_GameSpeedBeforePause = 1f;
 
+        /// <summary>
+        /// 获取或设置编辑器语言（仅编辑器内有效）。
+        /// </summary>
         [SerializeField]
         private Language m_EditorLanguage = Language.Unspecified;
 
+        /// <summary>
+        /// 文本助手
+        /// </summary>
         [SerializeField]
         private string m_TextHelperTypeName = "UnityGameFramework.Runtime.DefaultTextHelper";
 
+        /// <summary>
+        /// 默认版本助手
+        /// </summary>
         [SerializeField]
         private string m_VersionHelperTypeName = "UnityGameFramework.Runtime.DefaultVersionHelper";
 
+        /// <summary>
+        /// 默认日志助手
+        /// </summary>
         [SerializeField]
         private string m_LogHelperTypeName = "UnityGameFramework.Runtime.DefaultLogHelper";
 
+        /// <summary>
+        /// 压缩助手
+        /// </summary>
         [SerializeField]
         private string m_CompressionHelperTypeName = "UnityGameFramework.Runtime.DefaultCompressionHelper";
 
+        /// <summary>
+        /// Json助手
+        /// </summary>
         [SerializeField]
         private string m_JsonHelperTypeName = "UnityGameFramework.Runtime.DefaultJsonHelper";
 
+        /// <summary>
+        /// 游戏帧率
+        /// </summary>
         [SerializeField]
         private int m_FrameRate = 30;
-
+        
+        /// <summary>
+        /// 游戏速度
+        /// </summary>
         [SerializeField]
         private float m_GameSpeed = 1f;
 
+        /// <summary>
+        /// 是否允许后台运行
+        /// </summary>
         [SerializeField]
         private bool m_RunInBackground = true;
-
+        
+        /// <summary>
+        /// 是否禁止休眠
+        /// </summary>
         [SerializeField]
         private bool m_NeverSleep = true;
 
@@ -249,6 +285,9 @@ namespace UnityGameFramework.Runtime
             Destroy(gameObject);
         }
 
+        /// <summary>
+        /// 初始化文本助手
+        /// </summary>
         private void InitTextHelper()
         {
             if (string.IsNullOrEmpty(m_TextHelperTypeName))
@@ -256,6 +295,7 @@ namespace UnityGameFramework.Runtime
                 return;
             }
 
+            // 通过反射方式,从程序集中获取指定名称的类型
             Type textHelperType = Utility.Assembly.GetType(m_TextHelperTypeName);
             if (textHelperType == null)
             {

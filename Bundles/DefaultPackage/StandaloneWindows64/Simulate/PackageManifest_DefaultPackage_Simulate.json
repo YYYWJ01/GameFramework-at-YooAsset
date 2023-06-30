@@ -402,6 +402,15 @@
             "DependIDs": []
         },
         {
+            "Address": "ui_settings_popup",
+            "AssetPath": "Assets/AssetRaw/UI/ui_settings_popup.prefab",
+            "AssetTags": [
+                "UI"
+            ],
+            "BundleID": 6,
+            "DependIDs": []
+        },
+        {
             "Address": "3500汉字+符号+英文字符集",
             "AssetPath": "Assets/AssetRaw/Fonts/3500汉字+符号+英文字符集.txt",
             "AssetTags": [

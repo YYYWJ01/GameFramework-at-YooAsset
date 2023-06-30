@@ -9,8 +9,15 @@ namespace UnityGameFramework.Runtime
     /// 默认压缩解压缩辅助器。
     /// </summary>
     public class DefaultCompressionHelper : Utility.Compression.ICompressionHelper
-    {
+    {   
+        /// <summary>
+        /// 缓存字节长度
+        /// </summary>
         private const int CachedBytesLength = 0x1000;
+
+        /// <summary>
+        /// 缓存字节数组
+        /// </summary>
         private readonly byte[] m_CachedBytes = new byte[CachedBytesLength];
 
         /// <summary>

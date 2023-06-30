@@ -8,6 +8,7 @@ namespace UnityGameFramework.Runtime
     {
         public static readonly string Home = "ui_home";
         public static readonly string Loading = "ui_loading";
+        public static readonly string SettingsPopup = "ui_settings_popup";
     }
 
     public static class UIConfig
@@ -16,6 +17,7 @@ namespace UnityGameFramework.Runtime
         {
             {UI.Home,new UIProperty(UIGroup.UI)},
             {UI.Loading,new UIProperty(UIGroup.UI)},
+            {UI.SettingsPopup,new UIProperty(UIGroup.UI)},
         };
     }
 

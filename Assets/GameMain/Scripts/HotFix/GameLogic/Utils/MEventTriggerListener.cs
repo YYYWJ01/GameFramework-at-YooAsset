@@ -111,6 +111,13 @@ namespace Breeze.Utils
             dropdown.onValueChanged = se;
         }
 
+        public static void AddToggleOnValueChanged(Toggle toggle, UnityAction<bool> action)
+        {
+            Toggle.ToggleEvent se = new Toggle.ToggleEvent();
+            se.AddListener(action);
+            toggle.onValueChanged = se;
+        }
+
         public override void OnBeginDrag(PointerEventData eventData)
         {
             if (onBeginDrag != null) onBeginDrag(gameObject, eventData);

@@ -12,9 +12,18 @@ namespace UnityGameFramework.Runtime
     [AddComponentMenu("Game Framework/Config")]
     public sealed class ConfigComponent : GameFrameworkComponent
     {
+        /// <summary>
+        /// 默认优先级
+        /// </summary>
         private const int DefaultPriority = 0;
 
+        /// <summary>
+        /// 配置管理器
+        /// </summary>
         private IConfigManager m_ConfigManager = null;
+        /// <summary>
+        /// 事件组件
+        /// </summary>
         private EventComponent m_EventComponent = null;
 
         [SerializeField]

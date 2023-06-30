@@ -164,6 +164,7 @@ public class GameModule : AbsGameModuleMgr<GameModule>
         Sound = Get<SoundComponent>();
         UI = Get<UIComponent>();
         WebRequest = Get<WebRequestComponent>();
+        //-----------------扩展------------------
         Timer = Get<TimerComponent>();
         Logic = Get<LogicComponent>();
         TextureSet = Get<TextureSetComponent>();

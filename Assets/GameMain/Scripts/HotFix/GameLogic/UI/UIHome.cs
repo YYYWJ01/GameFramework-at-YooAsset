@@ -20,10 +20,10 @@ namespace Breeze.UILogic
             _btnSound = transform.Find("Main/Buttons/SoundButton/Button");
             _btnMusic = transform.Find("Main/Buttons/MusicButton/Button");
 
-            MEventTriggerListener.GetListener(_btnPlay).onPointerClick += OnClickBtnTest1;
-            MEventTriggerListener.GetListener(_btnSetting).onPointerClick += OnClickBtnTest2;
-            MEventTriggerListener.GetListener(_btnSound).onPointerClick += OnClickBtnTest3;
-            MEventTriggerListener.GetListener(_btnMusic).onPointerClick += OnClickBtnTest4;
+            MEventTriggerListener.GetListener(_btnPlay).onPointerClick += OnClickBtnPlay;
+            MEventTriggerListener.GetListener(_btnSetting).onPointerClick += OnClickBtnSetting;
+            MEventTriggerListener.GetListener(_btnSound).onPointerClick += OnClickBtnSound;
+            MEventTriggerListener.GetListener(_btnMusic).onPointerClick += OnClickBtnMusic;
         }
 
         protected override void OnInit(object userData)
@@ -36,28 +36,27 @@ namespace Breeze.UILogic
             // Debug.Log(" elapseSeconds : "+elapseSeconds+" realElapseSeconds : "+realElapseSeconds);
         }
 
-        public void OnClickBtnTest1(GameObject go, PointerEventData eventData)
+        private void OnClickBtnPlay(GameObject go, PointerEventData eventData)
         {
-            Debug.Log(" onClickBtn 1 ! "+go.name);
-            MUtils.PlayOnClickBtnAnimaton(go.transform.parent);
+            MUtils.PlayBtnAnimatonAndSound(go.transform.parent,Sound.UButton);
 
             StartCoroutine(MUtils.InvokeOnClickOpenAction(UI.Loading));
         }
 
-        public void OnClickBtnTest2(GameObject go, PointerEventData eventData)
+        private void OnClickBtnSetting(GameObject go, PointerEventData eventData)
         {
-            Debug.Log(" onClickBtn 2 ! "+go.name);
-            MUtils.PlayOnClickBtnAnimaton(go.transform.parent);
+            MUtils.PlayBtnAnimatonAndSound(go.transform.parent,Sound.UButton);
 
-            StartCoroutine(MUtils.InvokeOnClickCloseAction(this.UIForm));
+            StartCoroutine(MUtils.InvokeOnClickOpenAction(UI.SettingsPopup));
         }
 
-        public void OnClickBtnTest3(GameObject go, PointerEventData eventData)
+        private void OnClickBtnSound(GameObject go, PointerEventData eventData)
         {
             Debug.Log(" onClickBtn 3 ! "+go.name);
+            StartCoroutine(MUtils.InvokeOnClickCloseAction(this.UIForm));
         }   
 
-        public void OnClickBtnTest4(GameObject go, PointerEventData eventData)
+        private void OnClickBtnMusic(GameObject go, PointerEventData eventData)
         {
             Debug.Log(" onClickBtn 4 ! "+go.name);
         }

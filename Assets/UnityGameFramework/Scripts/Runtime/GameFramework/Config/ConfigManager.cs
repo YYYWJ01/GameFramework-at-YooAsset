@@ -9,8 +9,17 @@ namespace GameFramework.Config
     /// </summary>
     internal sealed partial class ConfigManager : GameFrameworkModule, IConfigManager
     {
+        /// <summary>
+        /// 配置数据
+        /// </summary>
         private readonly Dictionary<string, ConfigData> m_ConfigDatas;
+        /// <summary>
+        /// 数据提供者
+        /// </summary>
         private readonly DataProvider<IConfigManager> m_DataProvider;
+        /// <summary>
+        /// 配置助手
+        /// </summary>
         private IConfigHelper m_ConfigHelper;
 
         /// <summary>

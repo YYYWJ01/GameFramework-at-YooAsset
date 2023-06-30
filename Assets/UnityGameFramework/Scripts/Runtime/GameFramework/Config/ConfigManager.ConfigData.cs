@@ -4,6 +4,9 @@ namespace GameFramework.Config
 {
     internal sealed partial class ConfigManager : GameFrameworkModule, IConfigManager
     {
+        /// <summary>
+        /// 配置数据
+        /// </summary>
         [StructLayout(LayoutKind.Auto)]
         private struct ConfigData
         {

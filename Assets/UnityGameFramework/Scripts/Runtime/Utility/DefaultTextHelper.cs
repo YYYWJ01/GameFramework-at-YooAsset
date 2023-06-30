@@ -9,8 +9,14 @@ namespace UnityGameFramework.Runtime
     /// </summary>
     public class DefaultTextHelper : Utility.Text.ITextHelper
     {
+        /// <summary>
+        /// 字符生成器容量
+        /// </summary>
         private const int StringBuilderCapacity = 1024;
 
+        /// <summary>
+        /// 缓存字符生成器
+        /// </summary>
         [ThreadStatic]
         private static StringBuilder s_CachedStringBuilder = null;
 

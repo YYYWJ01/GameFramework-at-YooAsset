@@ -24,9 +24,20 @@ namespace Breeze.Utils
         /// </summary>
         /// <param name="uiForm">UI窗口实例</param>
         /// <returns></returns>
-        public static IEnumerator InvokeOnClickCloseAction(UIForm uiForm)
+        public static IEnumerator InvokeOnClickCloseAction(UIForm uiForm,Transform go = null)
         {
-            yield return new WaitForSeconds(0.1f);
+            Animator tempAnimator = null;
+            if (go != null)
+            {
+                tempAnimator = go.GetComponent<Animator>();
+            }
+            
+            if (tempAnimator != null)
+            {
+                tempAnimator.Play("Close");
+            }
+
+            yield return new WaitForSeconds(0.25f);
             GameModule.UI.CloseUIForm(uiForm);
         }
         
@@ -41,15 +52,13 @@ namespace Breeze.Utils
             {
                 tempAnimator.SetTrigger("Pressed");
             }
-
-            GameModule.Sound.PlaySound(Sound.UButton,SoundConfig.DicSoundProperty[Sound.UButton]);
         }
 
         /// <summary>
         /// 播放点击按钮动画与音效
         /// </summary>
         /// <param name="go"></param>
-        public static void PlayOnClickBtnAnimaton(Transform go)
+        public static void PlayBtnAnimatonAndSound(Transform go,string soundName = "")
         {
             var tempAnimator = go.GetComponent<Animator>();
             if (tempAnimator != null)
@@ -57,7 +66,10 @@ namespace Breeze.Utils
                 tempAnimator.SetTrigger("Pressed");
             }
 
-            GameModule.Sound.PlaySound(Sound.UButton,SoundConfig.DicSoundProperty[Sound.UButton]);
+            if (soundName != "")
+            {
+                GameModule.Sound.PlaySound(soundName,SoundConfig.DicSoundProperty[soundName]);
+            }
         }
     } 
 }
