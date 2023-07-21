@@ -9,11 +9,29 @@ namespace GameFramework
     /// <typeparam name="T">事件类型。</typeparam>
     internal sealed partial class EventPool<T> where T : BaseEventArgs
     {
+        /// <summary>
+        /// 事件回调列表
+        /// </summary>
         private readonly GameFrameworkMultiDictionary<int, EventHandler<T>> m_EventHandlers;
+        /// <summary>
+        /// 事件队列
+        /// </summary>
         private readonly Queue<Event> m_Events;
+        /// <summary>
+        /// 缓存节点字典
+        /// </summary>
         private readonly Dictionary<object, LinkedListNode<EventHandler<T>>> m_CachedNodes;
+        /// <summary>
+        /// 临时节点字典
+        /// </summary>
         private readonly Dictionary<object, LinkedListNode<EventHandler<T>>> m_TempNodes;
+        /// <summary>
+        /// 事件对象池模式
+        /// </summary>
         private readonly EventPoolMode m_EventPoolMode;
+        /// <summary>
+        /// 默认事件回调
+        /// </summary>
         private EventHandler<T> m_DefaultHandler;
 
         /// <summary>

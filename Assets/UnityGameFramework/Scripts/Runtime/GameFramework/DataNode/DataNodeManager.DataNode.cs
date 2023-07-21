@@ -9,11 +9,27 @@ namespace GameFramework.DataNode
         /// </summary>
         private sealed class DataNode : IDataNode, IReference
         {
+            /// <summary>
+            /// 空数据节点数组
+            /// </summary>
+            /// <value></value>
             private static readonly DataNode[] EmptyDataNodeArray = new DataNode[] { };
 
+            /// <summary>
+            /// 节点名字
+            /// </summary>
             private string m_Name;
+            /// <summary>
+            /// 节点数据
+            /// </summary>
             private Variable m_Data;
+            /// <summary>
+            /// 父节点
+            /// </summary>
             private DataNode m_Parent;
+            /// <summary>
+            /// 子节点集合
+            /// </summary>
             private List<DataNode> m_Childs;
 
             public DataNode()

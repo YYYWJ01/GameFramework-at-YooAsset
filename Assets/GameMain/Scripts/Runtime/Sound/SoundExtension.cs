@@ -39,6 +39,23 @@ namespace GameMain
         // }
 
         /// <summary>
+        /// 播放音乐
+        /// </summary>
+        /// <param name="soundComponent">音效组件</param>
+        /// <param name="musicId">音效声音</param>
+        /// <param name="userData">声音数据</param>
+        /// <returns></returns>
+        public static int? PlayMusic(this SoundComponent soundComponent, string musicAssetName, object userData = null)
+        {
+            soundComponent.StopMusic();
+            SoundProperty soundProperty = SoundConfig.DicSoundProperty[musicAssetName];
+            PlaySoundParams playSoundParams = soundProperty.Params;
+            s_MusicSerialId = soundComponent.PlaySound(musicAssetName, soundProperty.SoundGroup, Constant.AssetPriority.MusicAsset, playSoundParams, null, userData);
+
+            return s_MusicSerialId;
+        }
+
+        /// <summary>
         /// 停止背景音乐
         /// </summary>
         /// <param name="soundComponent">声音组件</param>
@@ -54,28 +71,19 @@ namespace GameMain
         }
 
         /// <summary>
-        /// 播放声音
+        /// 播放音效
         /// </summary>
-        /// <param name="soundComponent">声音组件</param>
-        /// <param name="assetName">资源名字</param>
+        /// <param name="soundComponent">音效组件</param>
+        /// <param name="soundId">音效Id</param>
         /// <param name="bindingEntity">绑定实体</param>
-        /// <param name="userData">数据</param>
+        /// <param name="userData">声音数据</param>
         /// <returns></returns>
-        public static int? PlaySound(this SoundComponent soundComponent, string assetName, Entity bindingEntity = null, object userData = null)
+        public static int? PlaySound(this SoundComponent soundComponent, string soundAssetName, Entity bindingEntity = null, object userData = null)
         {
-            if (string.IsNullOrEmpty(assetName))
-            {
-                Log.Warning("Can not load sound '{0}' from data table.", assetName.ToString());
-                return null;
-            }
-            PlaySoundParams playSoundParams = PlaySoundParams.Create();
-            playSoundParams.Priority = 0;
-            playSoundParams.Loop = false;
-            playSoundParams.VolumeInSoundGroup = 1;
-            playSoundParams.SpatialBlend = 1;
-            
-            string soundAssetName = assetName;
-            return soundComponent.PlaySound(soundAssetName, "Sound", Constant.AssetPriority.SoundAsset, playSoundParams, bindingEntity != null ? bindingEntity : null, userData);
+            SoundProperty soundProperty = SoundConfig.DicSoundProperty[soundAssetName];
+            PlaySoundParams playSoundParams = soundProperty.Params;
+
+            return soundComponent.PlaySound(soundAssetName, soundProperty.SoundGroup, Constant.AssetPriority.MusicAsset, playSoundParams, bindingEntity, userData);
         }
         
         // public static int? PlayUISound(this SoundComponent soundComponent, int uiSoundId, object userData = null)

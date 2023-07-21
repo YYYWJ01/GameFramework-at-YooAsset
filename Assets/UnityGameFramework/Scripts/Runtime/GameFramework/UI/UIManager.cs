@@ -2,6 +2,7 @@
 using GameFramework.Resource;
 using System;
 using System.Collections.Generic;
+using UnityGameFramework.Runtime;
 
 namespace GameFramework.UI
 {

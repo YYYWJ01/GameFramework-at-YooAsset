@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using GameFramework.Sound;
 using UnityEngine;
 
 namespace UnityGameFramework.Runtime
@@ -39,31 +40,31 @@ namespace UnityGameFramework.Runtime
         public static Dictionary<string, SoundProperty> DicSoundProperty = new Dictionary<string, SoundProperty>
         {
             // ------------------Game---------------------
-            {Sound.GBall,new SoundProperty(SoundGroup.Sound)},
-            {Sound.GBomb,new SoundProperty(SoundGroup.Sound)},
-            {Sound.GBoosterAward,new SoundProperty(SoundGroup.Sound)},
-            {Sound.GCollectable,new SoundProperty(SoundGroup.Sound)},
-            {Sound.GColorBomb,new SoundProperty(SoundGroup.Sound)},
-            {Sound.GCubePress,new SoundProperty(SoundGroup.Sound)},
-            {Sound.GCubePressError,new SoundProperty(SoundGroup.Sound)},
-            {Sound.GDynamite,new SoundProperty(SoundGroup.Sound)},
-            {Sound.GIceBreak,new SoundProperty(SoundGroup.Sound)},
-            {Sound.GReachedGoal,new SoundProperty(SoundGroup.Sound)},
-            {Sound.GStone,new SoundProperty(SoundGroup.Sound)},
+            {Sound.GBomb,new SoundProperty(SoundGroup.Sound,new PlaySoundParams(false,0,false,false,0,1,0,1,0,0,100,1))},
+            {Sound.GBall,new SoundProperty(SoundGroup.Sound,new PlaySoundParams(false,0,false,false,0,1,0,1,0,0,100,1))},
+            {Sound.GBoosterAward,new SoundProperty(SoundGroup.Sound,new PlaySoundParams(false,0,false,false,0,1,0,1,0,0,100,1))},
+            {Sound.GCollectable,new SoundProperty(SoundGroup.Sound,new PlaySoundParams(false,0,false,false,0,1,0,1,0,0,100,1))},
+            {Sound.GColorBomb,new SoundProperty(SoundGroup.Sound,new PlaySoundParams(false,0,false,false,0,1,0,1,0,0,100,1))},
+            {Sound.GCubePress,new SoundProperty(SoundGroup.Sound,new PlaySoundParams(false,0,false,false,0,1,0,1,0,0,100,1))},
+            {Sound.GCubePressError,new SoundProperty(SoundGroup.Sound,new PlaySoundParams(false,0,false,false,0,1,0,1,0,0,100,1))},
+            {Sound.GDynamite,new SoundProperty(SoundGroup.Sound,new PlaySoundParams(false,0,false,false,0,1,0,1,0,0,100,1))},
+            {Sound.GIceBreak,new SoundProperty(SoundGroup.Sound,new PlaySoundParams(false,0,false,false,0,1,0,1,0,0,100,1))},
+            {Sound.GReachedGoal,new SoundProperty(SoundGroup.Sound,new PlaySoundParams(false,0,false,false,0,1,0,1,0,0,100,1))},
+            {Sound.GStone,new SoundProperty(SoundGroup.Sound,new PlaySoundParams(false,0,false,false,0,1,0,1,0,0,100,1))},
 
             // ------------------UI---------------------
-            {Sound.UButton,new SoundProperty(SoundGroup.UISound)},
-            {Sound.UBuyPopButton,new SoundProperty(SoundGroup.UISound)},
-            {Sound.UCoinsPopButton,new SoundProperty(SoundGroup.UISound)},
-            {Sound.ULose,new SoundProperty(SoundGroup.UISound)},
-            {Sound.UPopupClose,new SoundProperty(SoundGroup.UISound)},
-            {Sound.UPopupCloseButton,new SoundProperty(SoundGroup.UISound)},
-            {Sound.UPopupOpen,new SoundProperty(SoundGroup.UISound)},
-            {Sound.UPopupOpenButton,new SoundProperty(SoundGroup.UISound)},
-            {Sound.UPopupOpenWhoosh,new SoundProperty(SoundGroup.UISound)},
-            {Sound.URain,new SoundProperty(SoundGroup.UISound)},
-            {Sound.UWin,new SoundProperty(SoundGroup.UISound)},
-            {Sound.UWinStarPop,new SoundProperty(SoundGroup.UISound)},
+            {Sound.UButton,new SoundProperty(SoundGroup.UISound,new PlaySoundParams(false,0,false,false,0,1,0,1,0,0,100,1))},
+            {Sound.UBuyPopButton,new SoundProperty(SoundGroup.UISound,new PlaySoundParams(false,0,false,false,0,1,0,1,0,0,100,1))},
+            {Sound.UCoinsPopButton,new SoundProperty(SoundGroup.UISound,new PlaySoundParams(false,0,false,false,0,1,0,1,0,0,100,1))},
+            {Sound.ULose,new SoundProperty(SoundGroup.UISound,new PlaySoundParams(false,0,false,false,0,1,0,1,0,0,100,1))},
+            {Sound.UPopupClose,new SoundProperty(SoundGroup.UISound,new PlaySoundParams(false,0,false,false,0,1,0,1,0,0,100,1))},
+            {Sound.UPopupCloseButton,new SoundProperty(SoundGroup.UISound,new PlaySoundParams(false,0,false,false,0,1,0,1,0,0,100,1))},
+            {Sound.UPopupOpen,new SoundProperty(SoundGroup.UISound,new PlaySoundParams(false,0,false,false,0,1,0,1,0,0,100,1))},
+            {Sound.UPopupOpenButton,new SoundProperty(SoundGroup.UISound,new PlaySoundParams(false,0,false,false,0,1,0,1,0,0,100,1))},
+            {Sound.UPopupOpenWhoosh,new SoundProperty(SoundGroup.UISound,new PlaySoundParams(false,0,false,false,0,1,0,1,0,0,100,1))},
+            {Sound.URain,new SoundProperty(SoundGroup.Music,new PlaySoundParams(false,0,false,true,0,1,0,1,0,0,100,1))},
+            {Sound.UWin,new SoundProperty(SoundGroup.Music,new PlaySoundParams(false,0,false,true,0,1,0,1,0,0,100,1))},
+            {Sound.UWinStarPop,new SoundProperty(SoundGroup.UISound,new PlaySoundParams(false,0,false,false,0,1,0,1,0,0,100,1))},
         };
     }
 
@@ -77,10 +78,12 @@ namespace UnityGameFramework.Runtime
     public class SoundProperty
     {
         public string SoundGroup;
+        public PlaySoundParams Params;
 
-        public SoundProperty(string soundGroup)
+        public SoundProperty(string soundGroup,PlaySoundParams param)
         {
             SoundGroup = soundGroup;
+            Params = param;
         }
     }
 }

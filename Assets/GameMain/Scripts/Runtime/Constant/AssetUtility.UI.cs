@@ -20,7 +20,7 @@ public static partial class AssetUtility
         /// <returns></returns>
         public static string GetSpritePath(string spriteName)
         {
-            return $"Assets/GameMain/ArtRaw/UIRaw/{spriteName}";
+            return $"Assets/Art/Sprites/UI/{spriteName}.png";
         }
 
         /// <summary>
@@ -30,7 +30,7 @@ public static partial class AssetUtility
         /// <returns></returns>
         public static string GetSpriteCollectionPath(string collectionName)
         {
-            return $"Assets/GameMain/ArtRaw/Atlas/{collectionName}.asset";
+            return $"Assets/AssetRaw/Atlas/{collectionName}.asset";
         }
 
         /// <summary>

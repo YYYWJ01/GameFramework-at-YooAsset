@@ -9,6 +9,9 @@ namespace GameFramework.Localization
     /// </summary>
     internal sealed partial class LocalizationManager : GameFrameworkModule, ILocalizationManager
     {
+        /// <summary>
+        /// 多语言字典<key,value>
+        /// </summary>
         private readonly Dictionary<string, string> m_Dictionary;
         private readonly DataProvider<ILocalizationManager> m_DataProvider;
         private ILocalizationHelper m_LocalizationHelper;

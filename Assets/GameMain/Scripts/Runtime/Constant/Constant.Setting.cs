@@ -13,6 +13,10 @@
             public const string SoundVolume = "Setting.SoundVolume";
             public const string UISoundMuted = "Setting.UISoundMuted";
             public const string UISoundVolume = "Setting.UISoundVolume";
+
+            //----------------------------自定义----------------------------
+            public const string SettingTest = "Setting.SettingTest";
+            public const string PlayerSex = "Setting.PlaySex";
         }
     }
 }

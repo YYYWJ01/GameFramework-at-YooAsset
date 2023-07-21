@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using GameMain;
 using UnityEngine;
 using UnityGameFramework.Runtime;
 
@@ -38,6 +39,7 @@ namespace Breeze.Utils
             }
 
             yield return new WaitForSeconds(0.25f);
+            Debug.Log("================ 1");
             GameModule.UI.CloseUIForm(uiForm);
         }
         
@@ -68,7 +70,7 @@ namespace Breeze.Utils
 
             if (soundName != "")
             {
-                GameModule.Sound.PlaySound(soundName,SoundConfig.DicSoundProperty[soundName]);
+                GameModule.Sound.PlaySound(soundName);
             }
         }
     } 

@@ -165,9 +165,11 @@ namespace UnityGameFramework.Runtime
             string value = null;
             if (!m_Settings.TryGetValue(settingName, out value))
             {
+                Log.Warning(" settingName 1: "+settingName+" 取值 : "+defaultValue);
                 return defaultValue;
             }
 
+            Log.Warning(" settingName 2: "+settingName+" 取值 : "+value);
             return int.Parse(value);
         }
 

@@ -78,6 +78,15 @@
             "DependIDs": []
         },
         {
+            "Address": "Test",
+            "AssetPath": "Assets/AssetRaw/Atlas/Test.asset",
+            "AssetTags": [
+                "Atlas"
+            ],
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
             "Address": "ui_avatars",
             "AssetPath": "Assets/AssetRaw/Atlas/ui_avatars.spriteatlas",
             "AssetTags": [
@@ -404,6 +413,15 @@
         {
             "Address": "ui_settings_popup",
             "AssetPath": "Assets/AssetRaw/UI/ui_settings_popup.prefab",
+            "AssetTags": [
+                "UI"
+            ],
+            "BundleID": 6,
+            "DependIDs": []
+        },
+        {
+            "Address": "ui_template",
+            "AssetPath": "Assets/AssetRaw/UI/ui_template.prefab",
             "AssetTags": [
                 "UI"
             ],

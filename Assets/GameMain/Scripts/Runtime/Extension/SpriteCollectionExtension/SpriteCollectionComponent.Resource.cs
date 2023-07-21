@@ -1,5 +1,7 @@
+using System;
 using System.Collections.Generic;
 using GameFramework.Resource;
+using UnityEngine;
 using UnityGameFramework.Runtime;
 
 namespace UGFExtensions.SpriteCollection
@@ -72,7 +74,14 @@ namespace UGFExtensions.SpriteCollection
             }
 
             m_SpriteCollectionBeingLoaded.Add(setSpriteObject.CollectionPath);
-            m_ResourceComponent.LoadAssetAsync(setSpriteObject.CollectionPath,typeof(SpriteCollection),m_LoadAssetCallbacks,setSpriteObject);
+            
+            int index1 = setSpriteObject.CollectionPath.LastIndexOf("/", StringComparison.Ordinal);
+            int index2 = setSpriteObject.CollectionPath.LastIndexOf(".", StringComparison.Ordinal);
+            var tempAssetName = index2 < index1
+                ? setSpriteObject.CollectionPath.Substring(index1 + 1)
+                : setSpriteObject.CollectionPath.Substring(index1 + 1, index2 - index1 - 1);
+
+            m_ResourceComponent.LoadAssetAsync(tempAssetName,typeof(SpriteCollection),m_LoadAssetCallbacks,setSpriteObject);
         }
     }
 }

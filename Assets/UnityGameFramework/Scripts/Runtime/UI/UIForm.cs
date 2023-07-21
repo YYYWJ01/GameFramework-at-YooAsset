@@ -117,10 +117,10 @@ namespace UnityGameFramework.Runtime
             Canvas canvas = transform.GetComponent<Canvas>();
             canvas.sortingOrder = uiGroup.Depth * DepthFactor + m_SerialId;
 
-            if (!isNewInstance)
-            {
-                return;
-            }
+            // if (!isNewInstance)
+            // {
+            //     return;
+            // }
 
             m_UIFormLogic = GetComponent<UIFormLogic>();
             if (m_UIFormLogic == null)
@@ -171,14 +171,14 @@ namespace UnityGameFramework.Runtime
         /// </summary>
         public void OnRecycle()
         {
-            try
-            {
-                m_UIFormLogic.RemoveAllUIEvent();
-            }
-            catch (Exception exception)
-            {
-                Log.Error("UI form '[{0}]{1}' RemoveAllUIEvent with exception '{2}'.", m_SerialId, m_UIFormAssetName, exception);
-            }
+            // try
+            // {
+            //     m_UIFormLogic.RemoveAllUIEvent();
+            // }
+            // catch (Exception exception)
+            // {
+            //     Log.Error("UI form '[{0}]{1}' RemoveAllUIEvent with exception '{2}'.", m_SerialId, m_UIFormAssetName, exception);
+            // }
             
             try
             {
@@ -228,14 +228,14 @@ namespace UnityGameFramework.Runtime
                 uiWidget.OnClose(isShutdown, userData);
             }
             
-            try
-            {
-                m_UIFormLogic.RemoveAllUIEvent();
-            }
-            catch (Exception exception)
-            {
-                Log.Error("UI form '[{0}]{1}' RemoveAllUIEvent with exception '{2}'.", m_SerialId, m_UIFormAssetName, exception);
-            }
+            // try
+            // {
+            //     m_UIFormLogic.RemoveAllUIEvent();
+            // }
+            // catch (Exception exception)
+            // {
+            //     Log.Error("UI form '[{0}]{1}' RemoveAllUIEvent with exception '{2}'.", m_SerialId, m_UIFormAssetName, exception);
+            // }
             
             try
             {

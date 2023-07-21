@@ -289,7 +289,7 @@ namespace YooAsset
 		public AssetInfo ConvertLocationToAssetInfo(string location, System.Type assetType)
 		{
 			DebugCheckLocation(location);
-
+			
 			string assetPath = MappingToAssetPath(location);
 			if (TryGetPackageAsset(assetPath, out PackageAsset packageAsset))
 			{

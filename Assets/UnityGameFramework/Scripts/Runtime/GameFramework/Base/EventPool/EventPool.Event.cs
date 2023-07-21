@@ -16,6 +16,9 @@
                 m_EventArgs = null;
             }
 
+            /// <summary>
+            /// 发送者
+            /// </summary>
             public object Sender
             {
                 get
@@ -24,6 +27,9 @@
                 }
             }
 
+            /// <summary>
+            /// 事件参数
+            /// </summary>
             public T EventArgs
             {
                 get
@@ -32,6 +38,12 @@
                 }
             }
 
+            /// <summary>
+            /// 创建事件
+            /// </summary>
+            /// <param name="sender">发送者</param>
+            /// <param name="e">参数</param>
+            /// <returns></returns>
             public static Event Create(object sender, T e)
             {
                 Event eventNode = ReferencePool.Acquire<Event>();

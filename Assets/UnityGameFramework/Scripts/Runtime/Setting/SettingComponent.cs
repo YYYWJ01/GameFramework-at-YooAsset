@@ -186,6 +186,7 @@ namespace UnityGameFramework.Runtime
         /// <param name="value">要写入的整数值。</param>
         public void SetInt(string settingName, int value)
         {
+            Debug.Log(" settingName : "+settingName+" 存值 : "+value);
             m_SettingManager.SetInt(settingName, value);
         }
 

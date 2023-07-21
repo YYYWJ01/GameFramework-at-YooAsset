@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d326122dba59474fa04d550e63ada33b, type: 3}
+  m_Name: Test
+  m_EditorClassIdentifier: 
+  m_Sprites:
+    m_keys:
+    - Assets/Art/Sprites/UI/Popups/Coins/BuyButton.png
+    - Assets/Art/Sprites/UI/Popups/Coins/Coins1.png
+    - Assets/Art/Sprites/UI/Popups/Coins/Coins2.png
+    - Assets/Art/Sprites/UI/Popups/Coins/Coins3.png
+    - Assets/Art/Sprites/UI/Popups/Coins/Coins4.png
+    - Assets/Art/Sprites/UI/Popups/Coins/CoinsBag.png
+    - Assets/Art/Sprites/UI/Popups/Coins/CoinsChest.png
+    - Assets/Art/Sprites/UI/Popups/Coins/StickerBlue.png
+    - Assets/Art/Sprites/UI/Popups/Coins/StickerGreen.png
+    - Assets/Art/Sprites/UI/Popups/Coins/StickerStar.png
+    - Assets/Art/Sprites/UI/Popups/Goal/AvatarBorder.png
+    - Assets/Art/Sprites/UI/Popups/Goal/AvatarBorderShadow.png
+    - Assets/Art/Sprites/UI/Popups/Goal/AvatarBorderShadowInside.png
+    - Assets/Art/Sprites/UI/Popups/Life/BigLife.png
+    - Assets/Art/Sprites/UI/Popups/Life/BrokenLife.png
+    - Assets/Art/Sprites/UI/Popups/Life/LifeSmallGrey.png
+    - Assets/Art/Sprites/UI/Popups/Life/LifeSmallRed.png
+    - Assets/Art/Sprites/UI/Popups/Life/LifeSmallShadow.png
+    - Assets/Art/Sprites/UI/Popups/Life/LivesBag.png
+    - Assets/Art/Sprites/UI/Popups/Lose/CubeBlue.png
+    - Assets/Art/Sprites/UI/Popups/Lose/CubeGreen.png
+    - Assets/Art/Sprites/UI/Popups/Lose/CubePurple.png
+    - Assets/Art/Sprites/UI/Popups/Lose/FalseIcon.png
+    - Assets/Art/Sprites/UI/Popups/Lose/RainParticle.png
+    - Assets/Art/Sprites/UI/Popups/NoMovesTime/CoinsAmountBackground.png
+    - Assets/Art/Sprites/UI/Popups/NoMovesTime/CoinWhiteBorder.png
+    - Assets/Art/Sprites/UI/Popups/NoMovesTime/MovesIcon.png
+    - Assets/Art/Sprites/UI/Popups/NoMovesTime/TimeIocn.png
+    - Assets/Art/Sprites/UI/Popups/PopupElements/BlueHeadlineBackground.png
+    - Assets/Art/Sprites/UI/Popups/PopupElements/ButtonClose.png
+    - Assets/Art/Sprites/UI/Popups/PopupElements/LightBlueBackground.png
+    - Assets/Art/Sprites/UI/Popups/PopupElements/ListBackground.png
+    - Assets/Art/Sprites/UI/Popups/PopupElements/LoadingPopupBackground.png
+    - Assets/Art/Sprites/UI/Popups/PopupElements/PopupBackgroundFull.png
+    - Assets/Art/Sprites/UI/Popups/PopupElements/PopupBackgroundHeadline.png
+    - Assets/Art/Sprites/UI/Popups/PopupElements/PopupBackgroundSimple.png
+    - Assets/Art/Sprites/UI/Popups/Settings/AvatarBorder.png
+    - Assets/Art/Sprites/UI/Popups/Settings/AvatarBorderShadowInside.png
+    - Assets/Art/Sprites/UI/Popups/Settings/Checkbox.png
+    - Assets/Art/Sprites/UI/Popups/Settings/Checkmark.png
+    - Assets/Art/Sprites/UI/Popups/Settings/ListBackground.png
+    - Assets/Art/Sprites/UI/Popups/Settings/Radiobutton.png
+    - Assets/Art/Sprites/UI/Popups/Settings/RadiobuttonChecked.png
+    - Assets/Art/Sprites/UI/Popups/Settings/SliderButton.png
+    - Assets/Art/Sprites/UI/Popups/Settings/SliderGreen.png
+    - Assets/Art/Sprites/UI/Popups/Settings/SliderGrey.png
+    - Assets/Art/Sprites/UI/Popups/StartGame/EmptyStar.png
+    - Assets/Art/Sprites/UI/Popups/StartGame/PlayButton.png
+    - Assets/Art/Sprites/UI/Popups/StartGame/PlayButtonShadow.png
+    - Assets/Art/Sprites/UI/Popups/Win/Confetti.png
+    - Assets/Art/Sprites/UI/Popups/Win/CubeBlue.png
+    - Assets/Art/Sprites/UI/Popups/Win/CubeGreen.png
+    - Assets/Art/Sprites/UI/Popups/Win/CubePurple.png
+    - Assets/Art/Sprites/UI/Popups/Win/StarGrey.png
+    - Assets/Art/Sprites/UI/Popups/Win/StarYellow.png
+    m_values:
+    - {fileID: 21300000, guid: 9917ed8bc5f244073b6f970042a021f5, type: 3}
+    - {fileID: 21300000, guid: 7904d4de42c464d20904d97d2d268ea5, type: 3}
+    - {fileID: 21300000, guid: 2ad77abd039d348c29bb0dcaa9bbdb0a, type: 3}
+    - {fileID: 21300000, guid: 56ccc1c8df3ff48e3b31c59a062a7fc1, type: 3}
+    - {fileID: 21300000, guid: 19369b91cd2ae4681b92bbbff20723ad, type: 3}
+    - {fileID: 21300000, guid: 555aa3ba627e444e1aa08000e8c92e57, type: 3}
+    - {fileID: 21300000, guid: 2c21576dd06fc490ca93a7521675bc38, type: 3}
+    - {fileID: 21300000, guid: 2942e0a5c86494a51a97fc3bf99f3f33, type: 3}
+    - {fileID: 21300000, guid: a94be749a6fca4b8bb87add79cd2db36, type: 3}
+    - {fileID: 21300000, guid: df8133b0da5a64499837e2eead8314ca, type: 3}
+    - {fileID: 21300000, guid: 0cbb12d27f15a48d28155e982fc1077f, type: 3}
+    - {fileID: 21300000, guid: 514c5607707484f08a83ac6f20cd1a3e, type: 3}
+    - {fileID: 21300000, guid: 8512c05392f08429989778f52172374a, type: 3}
+    - {fileID: 21300000, guid: 084cdfebcc7b9466093922ed56743d75, type: 3}
+    - {fileID: 21300000, guid: 4aa89cfaaa43d4749835e8c4ec840b63, type: 3}
+    - {fileID: 21300000, guid: 90447d36738b246dfa2ec46fc4c4efc8, type: 3}
+    - {fileID: 21300000, guid: 294b9ee88562f464dbb2d5f02a2ee47c, type: 3}
+    - {fileID: 21300000, guid: f0d4e34ef88164898956cd5d5a141e5e, type: 3}
+    - {fileID: 21300000, guid: a732f8ff815bf443985d42d7f6b19057, type: 3}
+    - {fileID: 21300000, guid: b4020776ff5524782890a16cc765a900, type: 3}
+    - {fileID: 21300000, guid: 8783cc200d70c4893a680774af233503, type: 3}
+    - {fileID: 21300000, guid: 00cfe84a32d314b209bf8dce2a1ecf0b, type: 3}
+    - {fileID: 21300000, guid: 6a7fdc835a92e4617b5d9baf046aa1a1, type: 3}
+    - {fileID: 21300000, guid: afc3bbe27b4b64e5c8a60739cd8eaff1, type: 3}
+    - {fileID: 21300000, guid: 5b87b2e7e99f6425585757598fb003cb, type: 3}
+    - {fileID: 21300000, guid: f563aad5e592e47898220eff2213483f, type: 3}
+    - {fileID: 21300000, guid: 152a7b945883c4f1f8c84b62ba7d6f3f, type: 3}
+    - {fileID: 21300000, guid: 03a36558d11e14ff4b236da17ce30f27, type: 3}
+    - {fileID: 21300000, guid: 389a27a3a4d084a8690d16a7c0ca0d34, type: 3}
+    - {fileID: 21300000, guid: ee7523c67bd1b43379d5070ae2773dbd, type: 3}
+    - {fileID: 21300000, guid: 678727a306ca2480bac1f19bc31672b2, type: 3}
+    - {fileID: 21300000, guid: e97e9d64985d44215b523c5b354ff671, type: 3}
+    - {fileID: 21300000, guid: e5a2f95365aa2402fb9de10c30b2b7ea, type: 3}
+    - {fileID: 21300000, guid: 8b0ecc1ec5e6747f99be00a957d05622, type: 3}
+    - {fileID: 21300000, guid: d540235582df14e469d0aa88dc743d41, type: 3}
+    - {fileID: 21300000, guid: 5bc6a77a9f93c4f64a010314d92b864d, type: 3}
+    - {fileID: 21300000, guid: 0beace3606b1c4064a71286ee446ac5b, type: 3}
+    - {fileID: 21300000, guid: 1dca83d40c4a6403db0bbaf1accdb1ef, type: 3}
+    - {fileID: 21300000, guid: b19d319c7a43c4c3aa9e91e215d04cad, type: 3}
+    - {fileID: 21300000, guid: e425bdfddace94b588bd840d888160eb, type: 3}
+    - {fileID: 21300000, guid: fc5ec516f2b60456f83e53e16c83f818, type: 3}
+    - {fileID: 21300000, guid: 93a0774d83d2944feb98540363160f14, type: 3}
+    - {fileID: 21300000, guid: 445f20adaf5e74594acabd2515f281e4, type: 3}
+    - {fileID: 21300000, guid: df6d9becca98b44078918fa5e27fb87d, type: 3}
+    - {fileID: 21300000, guid: 9e611405b4aa2445c82e5e7b8adc9e9f, type: 3}
+    - {fileID: 21300000, guid: ea1d9b595ab3146778db4cbe50decee7, type: 3}
+    - {fileID: 21300000, guid: 28d9024c6ebdf4c8191432b571145afa, type: 3}
+    - {fileID: 21300000, guid: 021b2974c8a7d4413852eddff2672368, type: 3}
+    - {fileID: 21300000, guid: 6add519c0a40c44cb9fe2b6315ac7dff, type: 3}
+    - {fileID: 21300000, guid: e78d1aef37552468fb78dba2c706c46e, type: 3}
+    - {fileID: 21300000, guid: b80d0aa4a68014c66a7a5b9f6ea249a9, type: 3}
+    - {fileID: 21300000, guid: cfc67dcf139ab4171b4ad5f193403de5, type: 3}
+    - {fileID: 21300000, guid: 505977b2458e04e5d8cb36b978f3464e, type: 3}
+    - {fileID: 21300000, guid: 05900e46b35dd421a99fea25fbe71e45, type: 3}
+    - {fileID: 21300000, guid: 783a6e321dbe540149ea79933a5bf58a, type: 3}
+  m_Objects:
+  - {fileID: 4343727234628468602, guid: a03c74859201e154fb1d66a5c86d5d1d, type: 2}
+  m_AtlasFolder: 

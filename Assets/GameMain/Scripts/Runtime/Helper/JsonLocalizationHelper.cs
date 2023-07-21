@@ -20,8 +20,8 @@ namespace GameMain
         /// <summary>
         /// 解析多语言json
         /// </summary>
-        /// <param name="localizationManager"></param>
-        /// <param name="rawString"></param>
+        /// <param name="localizationManager">本地化管理器</param>
+        /// <param name="rawString">原始字符</param>
         /// <param name="userData"></param>
         /// <returns></returns>
         public override bool ParseData(ILocalizationManager localizationManager, string rawString, object userData)

@@ -38,6 +38,39 @@
         }
 
         /// <summary>
+        /// 初始化播放声音参数的新实例。
+        /// </summary>
+        /// <param name="refresh">设置刷新状态</param>
+        /// <param name="time">设置播放位置</param>
+        /// <param name="muteInsoundGroup">设置在声音组内是否静音。</param>
+        /// <param name="loop">设置是否循环播放。</param>
+        /// <param name="priority">设置声音优先级。</param>
+        /// <param name="volumeInSoundGroup">设置在声音组内音量大小。</param>
+        /// <param name="fadeInSeconds">设置声音淡入时间，以秒为单位。</param>
+        /// <param name="pitch">设置声音音调。</param>
+        /// <param name="panStereo">设置声音立体声声相。</param>
+        /// <param name="spatialBlend">设置声音空间混合量。</param>
+        /// <param name="maxDistance">设置声音最大距离。</param>
+        /// <param name="dopplerLevel">设置声音多普勒等级。</param>
+        public PlaySoundParams(bool refresh = false,float time = Constant.DefaultTime,bool muteInsoundGroup = Constant.DefaultMute,bool loop = Constant.DefaultLoop,
+        int priority = Constant.DefaultPriority,float volumeInSoundGroup = Constant.DefaultVolume,float fadeInSeconds = Constant.DefaultFadeInSeconds,float pitch = Constant.DefaultPitch,
+        float panStereo = Constant.DefaultPanStereo,float spatialBlend = Constant.DefaultSpatialBlend,float maxDistance = Constant.DefaultMaxDistance,float dopplerLevel = Constant.DefaultDopplerLevel)
+        {
+            m_Referenced = refresh;
+            m_Time = time;
+            m_MuteInSoundGroup = muteInsoundGroup;
+            m_Loop = loop;
+            m_Priority = priority;
+            m_VolumeInSoundGroup = volumeInSoundGroup;
+            m_FadeInSeconds = fadeInSeconds;
+            m_Pitch = pitch;
+            m_PanStereo = panStereo;
+            m_SpatialBlend = spatialBlend;
+            m_MaxDistance = maxDistance;
+            m_DopplerLevel = dopplerLevel;
+        }
+
+        /// <summary>
         /// 获取或设置播放位置。
         /// </summary>
         public float Time

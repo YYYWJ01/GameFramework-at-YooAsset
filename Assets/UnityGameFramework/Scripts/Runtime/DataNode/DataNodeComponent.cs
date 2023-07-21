@@ -11,6 +11,9 @@ namespace UnityGameFramework.Runtime
     [AddComponentMenu("Game Framework/Data Node")]
     public sealed class DataNodeComponent : GameFrameworkComponent
     {
+        /// <summary>
+        /// 数据节点管理器
+        /// </summary>
         private IDataNodeManager m_DataNodeManager = null;
 
         /// <summary>

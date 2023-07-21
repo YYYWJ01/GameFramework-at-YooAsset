@@ -14,8 +14,14 @@ namespace UnityGameFramework.Runtime
     [AddComponentMenu("Game Framework/Data Table")]
     public sealed class DataTableComponent : GameFrameworkComponent
     {
+        /// <summary>
+        /// 默认优先级
+        /// </summary>
         private const int DefaultPriority = 0;
-
+        
+        /// <summary>
+        /// 数据表管理器
+        /// </summary>
         private IDataTableManager m_DataTableManager = null;
         private EventComponent m_EventComponent = null;
 

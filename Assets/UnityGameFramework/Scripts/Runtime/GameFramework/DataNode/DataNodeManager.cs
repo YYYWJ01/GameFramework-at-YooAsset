@@ -7,10 +7,24 @@ namespace GameFramework.DataNode
     /// </summary>
     internal sealed partial class DataNodeManager : GameFrameworkModule, IDataNodeManager
     {
+        /// <summary>
+        /// 空字符串数组
+        /// </summary>
+        /// <value></value>
         private static readonly string[] EmptyStringArray = new string[] { };
+        /// <summary>
+        /// 路径分割分隔符
+        /// </summary>
+        /// <value></value>
         private static readonly string[] PathSplitSeparator = new string[] { ".", "/", "\\" };
 
+        /// <summary>
+        /// 根节点名字
+        /// </summary>
         private const string RootName = "<Root>";
+        /// <summary>
+        /// 根节点
+        /// </summary>
         private DataNode m_Root;
 
         /// <summary>

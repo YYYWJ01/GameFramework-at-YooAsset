@@ -9,12 +9,17 @@ namespace UnityGameFramework.Runtime
         public static readonly string Home = "ui_home";
         public static readonly string Loading = "ui_loading";
         public static readonly string SettingsPopup = "ui_settings_popup";
+        public static readonly string Template = "ui_template";
     }
 
     public static class UIConfig
     {
         public static Dictionary<string, UIProperty> DicUIProperty = new Dictionary<string, UIProperty>
         {
+            //----------------------------功能模板UI------------------------------
+            {UI.Template,new UIProperty(UIGroup.UI)},
+
+            //----------------------------功能UI---------------------------------
             {UI.Home,new UIProperty(UIGroup.UI)},
             {UI.Loading,new UIProperty(UIGroup.UI)},
             {UI.SettingsPopup,new UIProperty(UIGroup.UI)},

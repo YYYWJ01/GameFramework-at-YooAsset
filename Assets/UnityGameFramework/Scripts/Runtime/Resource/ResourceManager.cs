@@ -493,8 +493,7 @@ namespace GameFramework.Resource
 
             OperationHandleBase handleBase;
 
-            bool isRawResource = assetInfo.IsInvalid == false;
-            
+            bool isRawResource = assetInfo.IsInvalid; // == false
             if (isRawResource)
             {
                 handleBase = assetPackage.LoadRawFileAsync(assetInfo);
